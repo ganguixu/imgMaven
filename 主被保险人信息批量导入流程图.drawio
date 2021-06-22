@@ -1,17 +1,9 @@
-<mxfile host="app.diagrams.net" modified="2021-06-22T02:31:02.799Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.114 Safari/537.36" etag="hlvK0SytZtOPosw2QRKi" version="14.8.0" type="github">
+<mxfile host="app.diagrams.net" modified="2021-06-22T02:53:49.314Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.114 Safari/537.36" etag="0ZkAvFV8UasL6DReJbKD" version="14.8.0" type="github">
   <diagram name="Page-1" id="97916047-d0de-89f5-080d-49f4d83e522f">
     <mxGraphModel dx="1422" dy="762" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1.5" pageWidth="1169" pageHeight="827" background="none" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
-        <mxCell id="WadXmMXPq1VeHtxro_Xy-229" style="edgeStyle=elbowEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;elbow=vertical;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;fontColor=#000000;strokeWidth=4;" edge="1" parent="1" source="2" target="WadXmMXPq1VeHtxro_Xy-225">
-          <mxGeometry relative="1" as="geometry">
-            <Array as="points">
-              <mxPoint x="1630" y="1500" />
-              <mxPoint x="1690" y="8430" />
-            </Array>
-          </mxGeometry>
-        </mxCell>
         <mxCell id="WadXmMXPq1VeHtxro_Xy-232" style="edgeStyle=elbowEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;elbow=vertical;html=1;fontColor=#000000;strokeWidth=4;" edge="1" parent="1" source="2" target="68mDhfGCl0k21oifYZLE-96">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
@@ -841,20 +833,29 @@
         <mxCell id="WadXmMXPq1VeHtxro_Xy-220" style="edgeStyle=elbowEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;fontColor=#000000;strokeWidth=4;" edge="1" parent="1" source="WadXmMXPq1VeHtxro_Xy-217" target="WadXmMXPq1VeHtxro_Xy-219">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
+        <mxCell id="WadXmMXPq1VeHtxro_Xy-236" style="edgeStyle=elbowEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;elbow=vertical;html=1;fontColor=#000000;strokeWidth=4;" edge="1" parent="1" source="WadXmMXPq1VeHtxro_Xy-217" target="WadXmMXPq1VeHtxro_Xy-235">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
         <mxCell id="WadXmMXPq1VeHtxro_Xy-217" value="数据处理状态" style="rhombus;fillColor=#ffe6cc;strokeColor=#d79b00;rounded=1;shadow=1;fontStyle=1;fontSize=14;" vertex="1" parent="1">
           <mxGeometry x="658" y="8310" width="180" height="100" as="geometry" />
         </mxCell>
         <mxCell id="WadXmMXPq1VeHtxro_Xy-219" value="数据处理状态&#xa;1、把合法性处理状态修改成 处理完成&#xa;2、如果字段合法性校验有误，数据处理结果改成&#xa;    失败&#xa;3、字段合法性校验通过无错误，数据处理结果&#xa;    改为 待处理" style="rounded=1;shadow=1;fontStyle=1;fontSize=14;strokeColor=#d79b00;fillColor=#ffe6cc;align=left;" vertex="1" parent="1">
           <mxGeometry x="877" y="8300" width="304" height="120" as="geometry" />
         </mxCell>
-        <mxCell id="WadXmMXPq1VeHtxro_Xy-225" value="数据处理状态" style="rhombus;fillColor=#ffe6cc;strokeColor=#d79b00;rounded=1;shadow=1;fontStyle=1;fontSize=14;" vertex="1" parent="1">
-          <mxGeometry x="658" y="8470" width="180" height="100" as="geometry" />
+        <mxCell id="WadXmMXPq1VeHtxro_Xy-225" value="返回校验成功的条数" style="rhombus;fillColor=#ffe6cc;strokeColor=#d79b00;rounded=1;shadow=1;fontStyle=1;fontSize=14;" vertex="1" parent="1">
+          <mxGeometry x="658" y="8584" width="180" height="100" as="geometry" />
         </mxCell>
         <mxCell id="WadXmMXPq1VeHtxro_Xy-233" style="edgeStyle=elbowEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;elbow=vertical;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;fontColor=#000000;strokeWidth=4;" edge="1" parent="1" source="WadXmMXPq1VeHtxro_Xy-231" target="2">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="WadXmMXPq1VeHtxro_Xy-231" value="开始" style="rounded=1;fillColor=#1ba1e2;strokeColor=#006EAF;shadow=1;fontStyle=1;fontColor=#ffffff;fontSize=14;" vertex="1" parent="1">
           <mxGeometry x="651" y="10" width="200" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="WadXmMXPq1VeHtxro_Xy-237" style="edgeStyle=elbowEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;elbow=vertical;html=1;fontColor=#000000;strokeWidth=4;" edge="1" parent="1" source="WadXmMXPq1VeHtxro_Xy-235" target="WadXmMXPq1VeHtxro_Xy-225">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="WadXmMXPq1VeHtxro_Xy-235" value="遍历每一条数据结束" style="rounded=1;shadow=1;fontStyle=1;fontSize=14;" vertex="1" parent="1">
+          <mxGeometry x="648" y="8470" width="200" height="60" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>

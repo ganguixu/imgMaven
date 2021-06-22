@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-06-21T09:37:32.351Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.114 Safari/537.36" etag="z6Mp3X0882QLmIzWJTHk" version="14.8.0" type="github">
+<mxfile host="app.diagrams.net" modified="2021-06-22T02:16:14.029Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.114 Safari/537.36" etag="an1tmp5yjDpYoyneizrw" version="14.8.0" type="github">
   <diagram name="Page-1" id="97916047-d0de-89f5-080d-49f4d83e522f">
     <mxGraphModel dx="981" dy="526" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1.5" pageWidth="1169" pageHeight="827" background="none" math="0" shadow="0">
       <root>
@@ -737,11 +737,110 @@
         <mxCell id="WadXmMXPq1VeHtxro_Xy-182" value="被保险人Email格式验证：&#xa;1、Email中必须包含@符&#xa;2、Email的长度不能大于50" style="rounded=1;shadow=1;fontStyle=1;fontSize=14;strokeColor=#d79b00;fillColor=#ffe6cc;align=left;" vertex="1" parent="1">
           <mxGeometry x="316.5" y="7105" width="304" height="70" as="geometry" />
         </mxCell>
+        <mxCell id="WadXmMXPq1VeHtxro_Xy-187" style="edgeStyle=elbowEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;fontColor=#000000;strokeWidth=4;" edge="1" parent="1" source="WadXmMXPq1VeHtxro_Xy-184" target="WadXmMXPq1VeHtxro_Xy-186">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="WadXmMXPq1VeHtxro_Xy-191" style="edgeStyle=elbowEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;fontColor=#000000;strokeWidth=4;" edge="1" parent="1" source="WadXmMXPq1VeHtxro_Xy-184" target="WadXmMXPq1VeHtxro_Xy-188">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
         <mxCell id="WadXmMXPq1VeHtxro_Xy-184" value="被保险人医保类型验证" style="rhombus;fillColor=#ffe6cc;strokeColor=#d79b00;rounded=1;shadow=1;fontStyle=1;fontSize=14;" vertex="1" parent="1">
           <mxGeometry x="658" y="7230" width="180" height="100" as="geometry" />
         </mxCell>
-        <mxCell id="WadXmMXPq1VeHtxro_Xy-186" value="被保险人医保类型验证：&#xa;1、" style="rounded=1;shadow=1;fontStyle=1;fontSize=14;strokeColor=#d79b00;fillColor=#ffe6cc;align=left;" vertex="1" parent="1">
+        <mxCell id="WadXmMXPq1VeHtxro_Xy-186" value="被保险人医保类型验证：&#xa;1、医保类型 必须为 城镇职工基本医疗保险、&#xa;城镇居民基本医疗保险、新型农村合作医疗、&#xa;均为参与、其他，否则系统提示 医保类型不存在" style="rounded=1;shadow=1;fontStyle=1;fontSize=14;strokeColor=#d79b00;fillColor=#ffe6cc;align=left;" vertex="1" parent="1">
           <mxGeometry x="877" y="7245" width="304" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="WadXmMXPq1VeHtxro_Xy-194" style="edgeStyle=elbowEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;fontColor=#000000;strokeWidth=4;" edge="1" parent="1" source="WadXmMXPq1VeHtxro_Xy-188" target="WadXmMXPq1VeHtxro_Xy-193">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="WadXmMXPq1VeHtxro_Xy-188" value="被保险人医保地区验证" style="rhombus;fillColor=#ffe6cc;strokeColor=#d79b00;rounded=1;shadow=1;fontStyle=1;fontSize=14;" vertex="1" parent="1">
+          <mxGeometry x="658" y="7370" width="180" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="WadXmMXPq1VeHtxro_Xy-190" style="edgeStyle=elbowEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;fontColor=#000000;strokeWidth=4;" edge="1" parent="1" source="WadXmMXPq1VeHtxro_Xy-189" target="WadXmMXPq1VeHtxro_Xy-188">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="WadXmMXPq1VeHtxro_Xy-189" value="被保险人医保地区验证：&#xa;1、医保类型为 &quot;均为参与&quot; 则不允许录入&#xa;    医保地区" style="rounded=1;shadow=1;fontStyle=1;fontSize=14;strokeColor=#d79b00;fillColor=#ffe6cc;align=left;" vertex="1" parent="1">
+          <mxGeometry x="316.5" y="7385" width="304" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="WadXmMXPq1VeHtxro_Xy-196" style="edgeStyle=elbowEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;fontColor=#000000;strokeWidth=4;" edge="1" parent="1" source="WadXmMXPq1VeHtxro_Xy-193" target="WadXmMXPq1VeHtxro_Xy-195">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="WadXmMXPq1VeHtxro_Xy-198" style="edgeStyle=elbowEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;fontColor=#000000;strokeWidth=4;" edge="1" parent="1" source="WadXmMXPq1VeHtxro_Xy-193" target="WadXmMXPq1VeHtxro_Xy-197">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="WadXmMXPq1VeHtxro_Xy-193" value="被保险人是否租赁验证" style="rhombus;fillColor=#ffe6cc;strokeColor=#d79b00;rounded=1;shadow=1;fontStyle=1;fontSize=14;" vertex="1" parent="1">
+          <mxGeometry x="658" y="7510" width="180" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="WadXmMXPq1VeHtxro_Xy-195" value="被保险人是否租赁验证：&#xa;1、是否租赁只能 选择 是 / 否" style="rounded=1;shadow=1;fontStyle=1;fontSize=14;strokeColor=#d79b00;fillColor=#ffe6cc;align=left;" vertex="1" parent="1">
+          <mxGeometry x="877" y="7525" width="304" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="WadXmMXPq1VeHtxro_Xy-200" style="edgeStyle=elbowEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;fontColor=#000000;strokeWidth=4;" edge="1" parent="1" source="WadXmMXPq1VeHtxro_Xy-197" target="WadXmMXPq1VeHtxro_Xy-199">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="WadXmMXPq1VeHtxro_Xy-202" style="edgeStyle=elbowEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;fontColor=#000000;strokeWidth=4;" edge="1" parent="1" source="WadXmMXPq1VeHtxro_Xy-197" target="WadXmMXPq1VeHtxro_Xy-201">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="WadXmMXPq1VeHtxro_Xy-197" value="被保险人高端投保类型&#xa;验证" style="rhombus;fillColor=#ffe6cc;strokeColor=#d79b00;rounded=1;shadow=1;fontStyle=1;fontSize=14;" vertex="1" parent="1">
+          <mxGeometry x="658" y="7650" width="180" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="WadXmMXPq1VeHtxro_Xy-199" value="被保险人高端投保类型验证：&#xa;1、有高端方案高端投保类型不能为空" style="rounded=1;shadow=1;fontStyle=1;fontSize=14;strokeColor=#d79b00;fillColor=#ffe6cc;align=left;" vertex="1" parent="1">
+          <mxGeometry x="316.5" y="7665" width="304" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="WadXmMXPq1VeHtxro_Xy-204" style="edgeStyle=elbowEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;fontColor=#000000;strokeWidth=4;" edge="1" parent="1" source="WadXmMXPq1VeHtxro_Xy-201" target="WadXmMXPq1VeHtxro_Xy-203">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="WadXmMXPq1VeHtxro_Xy-206" style="edgeStyle=elbowEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;fontColor=#000000;strokeWidth=4;" edge="1" parent="1" source="WadXmMXPq1VeHtxro_Xy-201" target="WadXmMXPq1VeHtxro_Xy-205">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="WadXmMXPq1VeHtxro_Xy-201" value="被保险人员福投保类型&#xa;验证" style="rhombus;fillColor=#ffe6cc;strokeColor=#d79b00;rounded=1;shadow=1;fontStyle=1;fontSize=14;" vertex="1" parent="1">
+          <mxGeometry x="658" y="7780" width="180" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="WadXmMXPq1VeHtxro_Xy-203" value="被保险人员福投保类型验证：&#xa;1、有员福方案员福投保类型不能为空" style="rounded=1;shadow=1;fontStyle=1;fontSize=14;strokeColor=#d79b00;fillColor=#ffe6cc;align=left;" vertex="1" parent="1">
+          <mxGeometry x="877" y="7795" width="304" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="WadXmMXPq1VeHtxro_Xy-208" style="edgeStyle=elbowEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;fontColor=#000000;strokeWidth=4;" edge="1" parent="1" source="WadXmMXPq1VeHtxro_Xy-205" target="WadXmMXPq1VeHtxro_Xy-207">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="WadXmMXPq1VeHtxro_Xy-210" style="edgeStyle=elbowEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;fontColor=#000000;strokeWidth=4;" edge="1" parent="1" source="WadXmMXPq1VeHtxro_Xy-205" target="WadXmMXPq1VeHtxro_Xy-209">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="WadXmMXPq1VeHtxro_Xy-205" value="被保险人百万医疗&#xa;投保类型验证" style="rhombus;fillColor=#ffe6cc;strokeColor=#d79b00;rounded=1;shadow=1;fontStyle=1;fontSize=14;" vertex="1" parent="1">
+          <mxGeometry x="658.5" y="7910" width="180" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="WadXmMXPq1VeHtxro_Xy-207" value="被保险人百万医疗投保类型验证：&#xa;1、有百万医疗方案百万医疗投保类型不能为空" style="rounded=1;shadow=1;fontStyle=1;fontSize=14;strokeColor=#d79b00;fillColor=#ffe6cc;align=left;" vertex="1" parent="1">
+          <mxGeometry x="316.5" y="7925" width="304" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="WadXmMXPq1VeHtxro_Xy-212" style="edgeStyle=elbowEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;fontColor=#000000;strokeWidth=4;" edge="1" parent="1" source="WadXmMXPq1VeHtxro_Xy-209" target="WadXmMXPq1VeHtxro_Xy-211">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="WadXmMXPq1VeHtxro_Xy-214" style="edgeStyle=elbowEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;fontColor=#000000;strokeWidth=4;" edge="1" parent="1" source="WadXmMXPq1VeHtxro_Xy-209" target="WadXmMXPq1VeHtxro_Xy-213">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="WadXmMXPq1VeHtxro_Xy-209" value="被保险人等级验证" style="rhombus;fillColor=#ffe6cc;strokeColor=#d79b00;rounded=1;shadow=1;fontStyle=1;fontSize=14;" vertex="1" parent="1">
+          <mxGeometry x="658" y="8040" width="180" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="WadXmMXPq1VeHtxro_Xy-211" value="被保险人等级验证：&#xa;1、等级不能为空&#xa;2、等级不存在" style="rounded=1;shadow=1;fontStyle=1;fontSize=14;strokeColor=#d79b00;fillColor=#ffe6cc;align=left;" vertex="1" parent="1">
+          <mxGeometry x="877" y="8055" width="304" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="WadXmMXPq1VeHtxro_Xy-216" style="edgeStyle=elbowEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;fontColor=#000000;strokeWidth=4;" edge="1" parent="1" source="WadXmMXPq1VeHtxro_Xy-213" target="WadXmMXPq1VeHtxro_Xy-215">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="WadXmMXPq1VeHtxro_Xy-218" style="edgeStyle=elbowEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;fontColor=#000000;strokeWidth=4;" edge="1" parent="1" source="WadXmMXPq1VeHtxro_Xy-213" target="WadXmMXPq1VeHtxro_Xy-217">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="WadXmMXPq1VeHtxro_Xy-213" value="被保险人等级验证" style="rhombus;fillColor=#ffe6cc;strokeColor=#d79b00;rounded=1;shadow=1;fontStyle=1;fontSize=14;" vertex="1" parent="1">
+          <mxGeometry x="658" y="8170" width="180" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="WadXmMXPq1VeHtxro_Xy-215" value="被保险人等级验证：&#xa;1、等级不能为空&#xa;2、等级不存在" style="rounded=1;shadow=1;fontStyle=1;fontSize=14;strokeColor=#d79b00;fillColor=#ffe6cc;align=left;" vertex="1" parent="1">
+          <mxGeometry x="316.5" y="8185" width="304" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="WadXmMXPq1VeHtxro_Xy-220" style="edgeStyle=elbowEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;fontColor=#000000;strokeWidth=4;" edge="1" parent="1" source="WadXmMXPq1VeHtxro_Xy-217" target="WadXmMXPq1VeHtxro_Xy-219">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="WadXmMXPq1VeHtxro_Xy-217" value="数据处理状态" style="rhombus;fillColor=#ffe6cc;strokeColor=#d79b00;rounded=1;shadow=1;fontStyle=1;fontSize=14;" vertex="1" parent="1">
+          <mxGeometry x="658" y="8310" width="180" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="WadXmMXPq1VeHtxro_Xy-219" value="数据处理状态&#xa;1、把合法性处理状态修改成 处理完成&#xa;2、如果字段合法性校验有误，数据处理结果改成&#xa;    失败&#xa;3、字段合法性校验通过无错误，数据处理结果&#xa;    改为 待处理" style="rounded=1;shadow=1;fontStyle=1;fontSize=14;strokeColor=#d79b00;fillColor=#ffe6cc;align=left;" vertex="1" parent="1">
+          <mxGeometry x="877" y="8300" width="304" height="120" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>

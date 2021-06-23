@@ -1,10 +1,10 @@
-<mxfile host="app.diagrams.net" modified="2021-06-22T03:06:52.097Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.114 Safari/537.36" etag="rn0wS-SFP5IqeUxNPwJ4" version="14.8.0" type="github">
+<mxfile host="app.diagrams.net" modified="2021-06-23T01:48:22.159Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.114 Safari/537.36" etag="jc8UFiikynLpaY9z9Kyq" version="14.8.0" type="github">
   <diagram name="Page-1" id="97916047-d0de-89f5-080d-49f4d83e522f">
-    <mxGraphModel dx="1422" dy="762" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1.5" pageWidth="1169" pageHeight="827" background="none" math="0" shadow="0">
+    <mxGraphModel dx="1422" dy="794" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1.5" pageWidth="1169" pageHeight="827" background="none" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
-        <mxCell id="WadXmMXPq1VeHtxro_Xy-232" style="edgeStyle=elbowEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;elbow=vertical;html=1;fontColor=#000000;strokeWidth=4;" edge="1" parent="1" source="2" target="68mDhfGCl0k21oifYZLE-96">
+        <mxCell id="WadXmMXPq1VeHtxro_Xy-232" style="edgeStyle=elbowEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;elbow=vertical;html=1;fontColor=#000000;strokeWidth=4;" parent="1" source="2" target="68mDhfGCl0k21oifYZLE-96" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="2" value="开始遍历每一条数据" style="rounded=1;shadow=1;fontStyle=1;fontSize=14;" parent="1" vertex="1">
@@ -46,7 +46,7 @@
         <mxCell id="68mDhfGCl0k21oifYZLE-159" style="edgeStyle=elbowEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;fontSize=14;fontColor=#FFFFFF;strokeColor=#000000;strokeWidth=4;" parent="1" source="68mDhfGCl0k21oifYZLE-100" target="68mDhfGCl0k21oifYZLE-158" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="WadXmMXPq1VeHtxro_Xy-49" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;strokeWidth=4;entryX=0;entryY=0.5;entryDx=0;entryDy=0;elbow=vertical;" edge="1" parent="1" source="68mDhfGCl0k21oifYZLE-100" target="68mDhfGCl0k21oifYZLE-106">
+        <mxCell id="WadXmMXPq1VeHtxro_Xy-49" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;strokeWidth=4;entryX=0;entryY=0.5;entryDx=0;entryDy=0;elbow=vertical;" parent="1" source="68mDhfGCl0k21oifYZLE-100" target="68mDhfGCl0k21oifYZLE-106" edge="1">
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="140" y="830" as="targetPoint" />
             <Array as="points">
@@ -58,7 +58,7 @@
         <mxCell id="68mDhfGCl0k21oifYZLE-100" value="被保险人属性&#xa;是否为&#xa;主被保险人" style="rhombus;fillColor=#10739E;strokeColor=none;rounded=1;shadow=1;fontColor=#FFFFFF;fontStyle=1;fontSize=14;" parent="1" vertex="1">
           <mxGeometry x="660" y="400" width="180" height="100" as="geometry" />
         </mxCell>
-        <mxCell id="WadXmMXPq1VeHtxro_Xy-55" style="edgeStyle=elbowEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;strokeWidth=4;" edge="1" parent="1" source="68mDhfGCl0k21oifYZLE-106" target="WadXmMXPq1VeHtxro_Xy-54">
+        <mxCell id="WadXmMXPq1VeHtxro_Xy-55" style="edgeStyle=elbowEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;strokeWidth=4;" parent="1" source="68mDhfGCl0k21oifYZLE-106" target="WadXmMXPq1VeHtxro_Xy-54" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="68mDhfGCl0k21oifYZLE-106" value="机构校验" style="rhombus;fillColor=#10739E;strokeColor=none;rounded=1;shadow=1;fontColor=#FFFFFF;fontStyle=1;fontSize=14;" parent="1" vertex="1">
@@ -91,18 +91,18 @@
         <mxCell id="68mDhfGCl0k21oifYZLE-111" value="判断主被保险人&#xa;证件号&#xa;是否为空" style="rhombus;fillColor=#cdeb8b;rounded=1;shadow=1;fontStyle=1;fontSize=14;strokeColor=none;" parent="1" vertex="1">
           <mxGeometry x="658.5" y="1880" width="180" height="100" as="geometry" />
         </mxCell>
-        <mxCell id="WadXmMXPq1VeHtxro_Xy-38" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;strokeWidth=4;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="68mDhfGCl0k21oifYZLE-112" target="WadXmMXPq1VeHtxro_Xy-39">
+        <mxCell id="WadXmMXPq1VeHtxro_Xy-38" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;strokeWidth=4;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="68mDhfGCl0k21oifYZLE-112" target="WadXmMXPq1VeHtxro_Xy-39" edge="1">
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="940" y="3360" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="WadXmMXPq1VeHtxro_Xy-42" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;strokeWidth=4;" edge="1" parent="1" source="68mDhfGCl0k21oifYZLE-112" target="WadXmMXPq1VeHtxro_Xy-41">
+        <mxCell id="WadXmMXPq1VeHtxro_Xy-42" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;strokeWidth=4;" parent="1" source="68mDhfGCl0k21oifYZLE-112" target="WadXmMXPq1VeHtxro_Xy-41" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="WadXmMXPq1VeHtxro_Xy-44" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;strokeWidth=4;" edge="1" parent="1" source="68mDhfGCl0k21oifYZLE-112" target="WadXmMXPq1VeHtxro_Xy-43">
+        <mxCell id="WadXmMXPq1VeHtxro_Xy-44" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;strokeWidth=4;" parent="1" source="68mDhfGCl0k21oifYZLE-112" target="WadXmMXPq1VeHtxro_Xy-43" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="WadXmMXPq1VeHtxro_Xy-47" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;strokeWidth=4;" edge="1" parent="1" source="68mDhfGCl0k21oifYZLE-112" target="WadXmMXPq1VeHtxro_Xy-46">
+        <mxCell id="WadXmMXPq1VeHtxro_Xy-47" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;strokeWidth=4;" parent="1" source="68mDhfGCl0k21oifYZLE-112" target="WadXmMXPq1VeHtxro_Xy-46" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="68mDhfGCl0k21oifYZLE-112" value="校验连带人数是否超过&#xa;连带等级的最大人数" style="rhombus;fillColor=#ffcccc;rounded=1;shadow=1;fontStyle=1;fontSize=14;strokeColor=none;" parent="1" vertex="1">
@@ -316,21 +316,21 @@
         <mxCell id="68mDhfGCl0k21oifYZLE-197" value="主被保险人证件号只能时15位的&#xa;英文或数字" style="rounded=1;fillColor=#cdeb8b;shadow=1;fontStyle=1;fontSize=14;strokeColor=none;" parent="1" vertex="1">
           <mxGeometry x="1030" y="2860" width="270" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="WadXmMXPq1VeHtxro_Xy-31" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="68mDhfGCl0k21oifYZLE-199" target="WadXmMXPq1VeHtxro_Xy-30">
+        <mxCell id="WadXmMXPq1VeHtxro_Xy-31" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="68mDhfGCl0k21oifYZLE-199" target="WadXmMXPq1VeHtxro_Xy-30" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="WadXmMXPq1VeHtxro_Xy-32" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;strokeWidth=4;" edge="1" parent="1" source="68mDhfGCl0k21oifYZLE-199" target="WadXmMXPq1VeHtxro_Xy-30">
+        <mxCell id="WadXmMXPq1VeHtxro_Xy-32" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;strokeWidth=4;" parent="1" source="68mDhfGCl0k21oifYZLE-199" target="WadXmMXPq1VeHtxro_Xy-30" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="68mDhfGCl0k21oifYZLE-199" value="主被保险人的等级限定了&#xa;连带亲属的人数，不得超过&#xa;限定等级的连带人数" style="rounded=1;fillColor=#ffcccc;shadow=1;fontStyle=1;fontSize=14;strokeColor=none;" parent="1" vertex="1">
           <mxGeometry x="630" y="3030" width="240" height="90" as="geometry" />
         </mxCell>
-        <mxCell id="WadXmMXPq1VeHtxro_Xy-37" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;strokeWidth=4;" edge="1" parent="1" source="WadXmMXPq1VeHtxro_Xy-30">
+        <mxCell id="WadXmMXPq1VeHtxro_Xy-37" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;strokeWidth=4;" parent="1" source="WadXmMXPq1VeHtxro_Xy-30" edge="1">
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="750" y="3310" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="WadXmMXPq1VeHtxro_Xy-51" style="edgeStyle=elbowEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;strokeWidth=4;" edge="1" parent="1" source="WadXmMXPq1VeHtxro_Xy-30" target="68mDhfGCl0k21oifYZLE-106">
+        <mxCell id="WadXmMXPq1VeHtxro_Xy-51" style="edgeStyle=elbowEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;strokeWidth=4;" parent="1" source="WadXmMXPq1VeHtxro_Xy-30" target="68mDhfGCl0k21oifYZLE-106" edge="1">
           <mxGeometry relative="1" as="geometry">
             <Array as="points">
               <mxPoint x="340" y="3380" />
@@ -339,272 +339,272 @@
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="WadXmMXPq1VeHtxro_Xy-30" value="主被不重复&#xa;且&#xa;主被在清单中存在" style="rhombus;fillColor=#ffcccc;rounded=1;shadow=1;fontStyle=1;fontSize=14;strokeColor=none;" vertex="1" parent="1">
+        <mxCell id="WadXmMXPq1VeHtxro_Xy-30" value="主被不重复&#xa;且&#xa;主被在清单中存在" style="rhombus;fillColor=#ffcccc;rounded=1;shadow=1;fontStyle=1;fontSize=14;strokeColor=none;" parent="1" vertex="1">
           <mxGeometry x="659.5" y="3170" width="180" height="100" as="geometry" />
         </mxCell>
-        <mxCell id="WadXmMXPq1VeHtxro_Xy-39" value="不可添加该等级" style="rounded=1;fillColor=#f8cecc;shadow=1;fontStyle=1;fontSize=14;strokeColor=none;" vertex="1" parent="1">
+        <mxCell id="WadXmMXPq1VeHtxro_Xy-39" value="不可添加该等级" style="rounded=1;fillColor=#f8cecc;shadow=1;fontStyle=1;fontSize=14;strokeColor=none;" parent="1" vertex="1">
           <mxGeometry x="1030" y="3330" width="270" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="WadXmMXPq1VeHtxro_Xy-40" value="查询出的数据为空" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=#9673a6;fillColor=#e1d5e7;" vertex="1" parent="1">
+        <mxCell id="WadXmMXPq1VeHtxro_Xy-40" value="查询出的数据为空" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=#9673a6;fillColor=#e1d5e7;" parent="1" vertex="1">
           <mxGeometry x="861" y="3320" width="110" height="20" as="geometry" />
         </mxCell>
-        <mxCell id="WadXmMXPq1VeHtxro_Xy-53" style="edgeStyle=elbowEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;strokeWidth=4;" edge="1" parent="1" source="WadXmMXPq1VeHtxro_Xy-41" target="68mDhfGCl0k21oifYZLE-106">
+        <mxCell id="WadXmMXPq1VeHtxro_Xy-53" style="edgeStyle=elbowEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;strokeWidth=4;" parent="1" source="WadXmMXPq1VeHtxro_Xy-41" target="68mDhfGCl0k21oifYZLE-106" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="WadXmMXPq1VeHtxro_Xy-41" value="判断" style="rhombus;fillColor=#ffcccc;rounded=1;shadow=1;fontStyle=1;fontSize=14;strokeColor=none;" vertex="1" parent="1">
+        <mxCell id="WadXmMXPq1VeHtxro_Xy-41" value="判断" style="rhombus;fillColor=#ffcccc;rounded=1;shadow=1;fontStyle=1;fontSize=14;strokeColor=none;" parent="1" vertex="1">
           <mxGeometry x="661" y="3450" width="180" height="100" as="geometry" />
         </mxCell>
-        <mxCell id="WadXmMXPq1VeHtxro_Xy-43" value="该等级人数已达上限，不允许添加" style="rounded=1;fillColor=#f8cecc;shadow=1;fontStyle=1;fontSize=14;strokeColor=none;" vertex="1" parent="1">
+        <mxCell id="WadXmMXPq1VeHtxro_Xy-43" value="该等级人数已达上限，不允许添加" style="rounded=1;fillColor=#f8cecc;shadow=1;fontStyle=1;fontSize=14;strokeColor=none;" parent="1" vertex="1">
           <mxGeometry x="1030" y="3460" width="270" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="WadXmMXPq1VeHtxro_Xy-45" value="主被保险人对应的被保险人清单中的人数&lt;br&gt;大于等于该等级对应的人数" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=#9673a6;fillColor=#e1d5e7;" vertex="1" parent="1">
+        <mxCell id="WadXmMXPq1VeHtxro_Xy-45" value="主被保险人对应的被保险人清单中的人数&lt;br&gt;大于等于该等级对应的人数" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=#9673a6;fillColor=#e1d5e7;" parent="1" vertex="1">
           <mxGeometry x="861" y="3415" width="230" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="WadXmMXPq1VeHtxro_Xy-46" value="该等级人数已达上限，不允许添加" style="rounded=1;fillColor=#f8cecc;shadow=1;fontStyle=1;fontSize=14;strokeColor=none;" vertex="1" parent="1">
+        <mxCell id="WadXmMXPq1VeHtxro_Xy-46" value="该等级人数已达上限，不允许添加" style="rounded=1;fillColor=#f8cecc;shadow=1;fontStyle=1;fontSize=14;strokeColor=none;" parent="1" vertex="1">
           <mxGeometry x="1030" y="3590" width="270" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="WadXmMXPq1VeHtxro_Xy-48" value="上传的被保险人数+被保险人清单中的人数 &lt;br&gt;大于等于该等级对应的人数" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=#9673a6;fillColor=#e1d5e7;" vertex="1" parent="1">
+        <mxCell id="WadXmMXPq1VeHtxro_Xy-48" value="上传的被保险人数+被保险人清单中的人数 &lt;br&gt;大于等于该等级对应的人数" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=#9673a6;fillColor=#e1d5e7;" parent="1" vertex="1">
           <mxGeometry x="861" y="3540" width="240" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="WadXmMXPq1VeHtxro_Xy-50" value="为主被保险人" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=#9673a6;fillColor=#e1d5e7;" vertex="1" parent="1">
+        <mxCell id="WadXmMXPq1VeHtxro_Xy-50" value="为主被保险人" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=#9673a6;fillColor=#e1d5e7;" parent="1" vertex="1">
           <mxGeometry x="400" y="380" width="90" height="20" as="geometry" />
         </mxCell>
-        <mxCell id="WadXmMXPq1VeHtxro_Xy-52" value="主被保险人重复或者主被在清单中不存在" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=#9673a6;fillColor=#e1d5e7;" vertex="1" parent="1">
+        <mxCell id="WadXmMXPq1VeHtxro_Xy-52" value="主被保险人重复或者主被在清单中不存在" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=#9673a6;fillColor=#e1d5e7;" parent="1" vertex="1">
           <mxGeometry x="398.5" y="3190" width="230" height="20" as="geometry" />
         </mxCell>
-        <mxCell id="WadXmMXPq1VeHtxro_Xy-59" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;strokeWidth=4;" edge="1" parent="1" source="WadXmMXPq1VeHtxro_Xy-54" target="WadXmMXPq1VeHtxro_Xy-58">
+        <mxCell id="WadXmMXPq1VeHtxro_Xy-59" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;strokeWidth=4;" parent="1" source="WadXmMXPq1VeHtxro_Xy-54" target="WadXmMXPq1VeHtxro_Xy-58" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="WadXmMXPq1VeHtxro_Xy-62" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;strokeWidth=4;" edge="1" parent="1" source="WadXmMXPq1VeHtxro_Xy-54" target="WadXmMXPq1VeHtxro_Xy-56">
+        <mxCell id="WadXmMXPq1VeHtxro_Xy-62" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;strokeWidth=4;" parent="1" source="WadXmMXPq1VeHtxro_Xy-54" target="WadXmMXPq1VeHtxro_Xy-56" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="WadXmMXPq1VeHtxro_Xy-63" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;strokeWidth=4;" edge="1" parent="1" source="WadXmMXPq1VeHtxro_Xy-54" target="WadXmMXPq1VeHtxro_Xy-57">
+        <mxCell id="WadXmMXPq1VeHtxro_Xy-63" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;strokeWidth=4;" parent="1" source="WadXmMXPq1VeHtxro_Xy-54" target="WadXmMXPq1VeHtxro_Xy-57" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="WadXmMXPq1VeHtxro_Xy-54" value="根据员工名单来源以及百胜、通用&#xa;判断机构信息是否必填" style="rounded=1;shadow=1;fontStyle=1;fontSize=14;strokeColor=none;fillColor=#10739E;fontColor=#FFFFFF;" vertex="1" parent="1">
+        <mxCell id="WadXmMXPq1VeHtxro_Xy-54" value="根据员工名单来源以及百胜、通用&#xa;判断机构信息是否必填" style="rounded=1;shadow=1;fontStyle=1;fontSize=14;strokeColor=none;fillColor=#10739E;fontColor=#FFFFFF;" parent="1" vertex="1">
           <mxGeometry x="630" y="3880" width="240" height="90" as="geometry" />
         </mxCell>
-        <mxCell id="WadXmMXPq1VeHtxro_Xy-69" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;fontColor=#FFFFFF;strokeWidth=4;" edge="1" parent="1" source="WadXmMXPq1VeHtxro_Xy-56" target="WadXmMXPq1VeHtxro_Xy-68">
+        <mxCell id="WadXmMXPq1VeHtxro_Xy-69" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;fontColor=#FFFFFF;strokeWidth=4;" parent="1" source="WadXmMXPq1VeHtxro_Xy-56" target="WadXmMXPq1VeHtxro_Xy-68" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="WadXmMXPq1VeHtxro_Xy-56" value="HR导入" style="rhombus;fillColor=#10739E;strokeColor=none;rounded=1;shadow=1;fontColor=#FFFFFF;fontStyle=1;fontSize=14;" vertex="1" parent="1">
+        <mxCell id="WadXmMXPq1VeHtxro_Xy-56" value="HR导入" style="rhombus;fillColor=#10739E;strokeColor=none;rounded=1;shadow=1;fontColor=#FFFFFF;fontStyle=1;fontSize=14;" parent="1" vertex="1">
           <mxGeometry x="660" y="4040" width="180" height="100" as="geometry" />
         </mxCell>
-        <mxCell id="WadXmMXPq1VeHtxro_Xy-66" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;strokeWidth=4;" edge="1" parent="1" source="WadXmMXPq1VeHtxro_Xy-57" target="WadXmMXPq1VeHtxro_Xy-64">
+        <mxCell id="WadXmMXPq1VeHtxro_Xy-66" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;strokeWidth=4;" parent="1" source="WadXmMXPq1VeHtxro_Xy-57" target="WadXmMXPq1VeHtxro_Xy-64" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="WadXmMXPq1VeHtxro_Xy-57" value="员工导入&#xa;百胜版" style="rhombus;fillColor=#10739E;strokeColor=none;rounded=1;shadow=1;fontColor=#FFFFFF;fontStyle=1;fontSize=14;" vertex="1" parent="1">
+        <mxCell id="WadXmMXPq1VeHtxro_Xy-57" value="员工导入&#xa;百胜版" style="rhombus;fillColor=#10739E;strokeColor=none;rounded=1;shadow=1;fontColor=#FFFFFF;fontStyle=1;fontSize=14;" parent="1" vertex="1">
           <mxGeometry x="423.5" y="4040" width="180" height="100" as="geometry" />
         </mxCell>
-        <mxCell id="WadXmMXPq1VeHtxro_Xy-67" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;strokeWidth=4;" edge="1" parent="1" source="WadXmMXPq1VeHtxro_Xy-58" target="WadXmMXPq1VeHtxro_Xy-65">
+        <mxCell id="WadXmMXPq1VeHtxro_Xy-67" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;strokeWidth=4;" parent="1" source="WadXmMXPq1VeHtxro_Xy-58" target="WadXmMXPq1VeHtxro_Xy-65" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="WadXmMXPq1VeHtxro_Xy-58" value="员工导入&#xa;通用版" style="rhombus;fillColor=#10739E;strokeColor=none;rounded=1;shadow=1;fontColor=#FFFFFF;fontStyle=1;fontSize=14;" vertex="1" parent="1">
+        <mxCell id="WadXmMXPq1VeHtxro_Xy-58" value="员工导入&#xa;通用版" style="rhombus;fillColor=#10739E;strokeColor=none;rounded=1;shadow=1;fontColor=#FFFFFF;fontStyle=1;fontSize=14;" parent="1" vertex="1">
           <mxGeometry x="900" y="4040" width="180" height="100" as="geometry" />
         </mxCell>
-        <mxCell id="WadXmMXPq1VeHtxro_Xy-64" value="机构信息不必导入" style="rounded=1;shadow=1;fontStyle=1;fontSize=14;strokeColor=none;fillColor=#10739E;fontColor=#FFFFFF;" vertex="1" parent="1">
+        <mxCell id="WadXmMXPq1VeHtxro_Xy-64" value="机构信息不必导入" style="rounded=1;shadow=1;fontStyle=1;fontSize=14;strokeColor=none;fillColor=#10739E;fontColor=#FFFFFF;" parent="1" vertex="1">
           <mxGeometry x="100" y="4060" width="270" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="WadXmMXPq1VeHtxro_Xy-65" value="机构信息必填" style="rounded=1;shadow=1;fontStyle=1;fontSize=14;strokeColor=none;fillColor=#10739E;fontColor=#FFFFFF;" vertex="1" parent="1">
+        <mxCell id="WadXmMXPq1VeHtxro_Xy-65" value="机构信息必填" style="rounded=1;shadow=1;fontStyle=1;fontSize=14;strokeColor=none;fillColor=#10739E;fontColor=#FFFFFF;" parent="1" vertex="1">
           <mxGeometry x="1140" y="4060" width="270" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="WadXmMXPq1VeHtxro_Xy-73" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;fontColor=#FFFFFF;strokeWidth=4;" edge="1" parent="1" source="WadXmMXPq1VeHtxro_Xy-68" target="WadXmMXPq1VeHtxro_Xy-70">
+        <mxCell id="WadXmMXPq1VeHtxro_Xy-73" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;fontColor=#FFFFFF;strokeWidth=4;" parent="1" source="WadXmMXPq1VeHtxro_Xy-68" target="WadXmMXPq1VeHtxro_Xy-70" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="WadXmMXPq1VeHtxro_Xy-74" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fontColor=#FFFFFF;strokeWidth=4;" edge="1" parent="1" source="WadXmMXPq1VeHtxro_Xy-68" target="WadXmMXPq1VeHtxro_Xy-71">
+        <mxCell id="WadXmMXPq1VeHtxro_Xy-74" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fontColor=#FFFFFF;strokeWidth=4;" parent="1" source="WadXmMXPq1VeHtxro_Xy-68" target="WadXmMXPq1VeHtxro_Xy-71" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="WadXmMXPq1VeHtxro_Xy-75" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fontColor=#FFFFFF;strokeWidth=4;" edge="1" parent="1" source="WadXmMXPq1VeHtxro_Xy-68" target="WadXmMXPq1VeHtxro_Xy-72">
+        <mxCell id="WadXmMXPq1VeHtxro_Xy-75" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fontColor=#FFFFFF;strokeWidth=4;" parent="1" source="WadXmMXPq1VeHtxro_Xy-68" target="WadXmMXPq1VeHtxro_Xy-72" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="WadXmMXPq1VeHtxro_Xy-77" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fontColor=#FFFFFF;strokeWidth=4;" edge="1" parent="1" source="WadXmMXPq1VeHtxro_Xy-68" target="WadXmMXPq1VeHtxro_Xy-76">
+        <mxCell id="WadXmMXPq1VeHtxro_Xy-77" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fontColor=#FFFFFF;strokeWidth=4;" parent="1" source="WadXmMXPq1VeHtxro_Xy-68" target="WadXmMXPq1VeHtxro_Xy-76" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="WadXmMXPq1VeHtxro_Xy-79" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;fontColor=#FFFFFF;strokeWidth=4;" edge="1" parent="1" source="WadXmMXPq1VeHtxro_Xy-68" target="WadXmMXPq1VeHtxro_Xy-78">
+        <mxCell id="WadXmMXPq1VeHtxro_Xy-79" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;fontColor=#FFFFFF;strokeWidth=4;" parent="1" source="WadXmMXPq1VeHtxro_Xy-68" target="WadXmMXPq1VeHtxro_Xy-78" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="WadXmMXPq1VeHtxro_Xy-68" value="机构信息验证：&#xa;1、子任务是否填写机构信息&#xa;依据主任务&#xa;2、若填写则所有人必填&#xa;3、主被和连带必须一致" style="rounded=1;shadow=1;fontStyle=1;fontSize=14;strokeColor=none;fillColor=#10739E;fontColor=#FFFFFF;" vertex="1" parent="1">
+        <mxCell id="WadXmMXPq1VeHtxro_Xy-68" value="机构信息验证：&#xa;1、子任务是否填写机构信息&#xa;依据主任务&#xa;2、若填写则所有人必填&#xa;3、主被和连带必须一致" style="rounded=1;shadow=1;fontStyle=1;fontSize=14;strokeColor=none;fillColor=#10739E;fontColor=#FFFFFF;" parent="1" vertex="1">
           <mxGeometry x="629.5" y="4210" width="240" height="90" as="geometry" />
         </mxCell>
-        <mxCell id="WadXmMXPq1VeHtxro_Xy-70" value="主任务填写了机构信息，&#xa;子任务也要填写机构信息" style="rounded=1;shadow=1;fontStyle=1;fontSize=14;strokeColor=none;fillColor=#10739E;fontColor=#FFFFFF;" vertex="1" parent="1">
+        <mxCell id="WadXmMXPq1VeHtxro_Xy-70" value="主任务填写了机构信息，&#xa;子任务也要填写机构信息" style="rounded=1;shadow=1;fontStyle=1;fontSize=14;strokeColor=none;fillColor=#10739E;fontColor=#FFFFFF;" parent="1" vertex="1">
           <mxGeometry x="1140" y="4225" width="270" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="WadXmMXPq1VeHtxro_Xy-71" value="若有员工填写机构信息，则所有员工必填" style="rounded=1;shadow=1;fontStyle=1;fontSize=14;strokeColor=none;fillColor=#10739E;fontColor=#FFFFFF;" vertex="1" parent="1">
+        <mxCell id="WadXmMXPq1VeHtxro_Xy-71" value="若有员工填写机构信息，则所有员工必填" style="rounded=1;shadow=1;fontStyle=1;fontSize=14;strokeColor=none;fillColor=#10739E;fontColor=#FFFFFF;" parent="1" vertex="1">
           <mxGeometry x="1140" y="4420" width="270" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="WadXmMXPq1VeHtxro_Xy-72" value="主被和连带机构必须一致" style="rounded=1;shadow=1;fontStyle=1;fontSize=14;strokeColor=none;fillColor=#10739E;fontColor=#FFFFFF;" vertex="1" parent="1">
+        <mxCell id="WadXmMXPq1VeHtxro_Xy-72" value="主被和连带机构必须一致" style="rounded=1;shadow=1;fontStyle=1;fontSize=14;strokeColor=none;fillColor=#10739E;fontColor=#FFFFFF;" parent="1" vertex="1">
           <mxGeometry x="1140" y="4530" width="270" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="WadXmMXPq1VeHtxro_Xy-76" value="主任务没有填写机构信息，&#xa;子任务不能填写机构信息" style="rounded=1;shadow=1;fontStyle=1;fontSize=14;strokeColor=none;fillColor=#10739E;fontColor=#FFFFFF;" vertex="1" parent="1">
+        <mxCell id="WadXmMXPq1VeHtxro_Xy-76" value="主任务没有填写机构信息，&#xa;子任务不能填写机构信息" style="rounded=1;shadow=1;fontStyle=1;fontSize=14;strokeColor=none;fillColor=#10739E;fontColor=#FFFFFF;" parent="1" vertex="1">
           <mxGeometry x="1140" y="4312" width="270" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="WadXmMXPq1VeHtxro_Xy-83" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;fontColor=#FFFFFF;strokeWidth=4;" edge="1" parent="1" source="WadXmMXPq1VeHtxro_Xy-78">
+        <mxCell id="WadXmMXPq1VeHtxro_Xy-83" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;fontColor=#FFFFFF;strokeWidth=4;" parent="1" source="WadXmMXPq1VeHtxro_Xy-78" edge="1">
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="748.4999999999995" y="4719.999999999999" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="WadXmMXPq1VeHtxro_Xy-78" value="岗位验证" style="rhombus;fillColor=#dae8fc;strokeColor=#6c8ebf;rounded=1;shadow=1;fontStyle=1;fontSize=14;" vertex="1" parent="1">
+        <mxCell id="WadXmMXPq1VeHtxro_Xy-78" value="岗位验证" style="rhombus;fillColor=#dae8fc;strokeColor=#6c8ebf;rounded=1;shadow=1;fontStyle=1;fontSize=14;" parent="1" vertex="1">
           <mxGeometry x="658.5" y="4580" width="180" height="100" as="geometry" />
         </mxCell>
-        <mxCell id="WadXmMXPq1VeHtxro_Xy-85" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;fontColor=#FFFFFF;strokeWidth=4;" edge="1" parent="1" source="WadXmMXPq1VeHtxro_Xy-80" target="WadXmMXPq1VeHtxro_Xy-84">
+        <mxCell id="WadXmMXPq1VeHtxro_Xy-85" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;fontColor=#FFFFFF;strokeWidth=4;" parent="1" source="WadXmMXPq1VeHtxro_Xy-80" target="WadXmMXPq1VeHtxro_Xy-84" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="WadXmMXPq1VeHtxro_Xy-88" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;fontColor=#FFFFFF;strokeWidth=4;" edge="1" parent="1" source="WadXmMXPq1VeHtxro_Xy-80">
+        <mxCell id="WadXmMXPq1VeHtxro_Xy-88" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;fontColor=#FFFFFF;strokeWidth=4;" parent="1" source="WadXmMXPq1VeHtxro_Xy-80" edge="1">
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="748.4999999999995" y="4889.999999999999" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="WadXmMXPq1VeHtxro_Xy-80" value="当被保险人属性为&#xa;主被保险人时&#xa;岗位必填" style="rhombus;fillColor=#dae8fc;strokeColor=#6c8ebf;rounded=1;shadow=1;fontStyle=1;fontSize=14;" vertex="1" parent="1">
+        <mxCell id="WadXmMXPq1VeHtxro_Xy-80" value="当被保险人属性为&#xa;主被保险人时&#xa;岗位必填" style="rhombus;fillColor=#dae8fc;strokeColor=#6c8ebf;rounded=1;shadow=1;fontStyle=1;fontSize=14;" parent="1" vertex="1">
           <mxGeometry x="658.5" y="4720" width="180" height="100" as="geometry" />
         </mxCell>
-        <mxCell id="WadXmMXPq1VeHtxro_Xy-84" value="岗位不能为空" style="rounded=1;shadow=1;fontStyle=1;fontSize=14;strokeColor=#6c8ebf;fillColor=#dae8fc;" vertex="1" parent="1">
+        <mxCell id="WadXmMXPq1VeHtxro_Xy-84" value="岗位不能为空" style="rounded=1;shadow=1;fontStyle=1;fontSize=14;strokeColor=#6c8ebf;fillColor=#dae8fc;" parent="1" vertex="1">
           <mxGeometry x="1140" y="4740" width="270" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="WadXmMXPq1VeHtxro_Xy-89" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;fontColor=#FFFFFF;strokeWidth=4;fillColor=#f5f5f5;strokeColor=#666666;" edge="1" parent="1" source="WadXmMXPq1VeHtxro_Xy-86" target="WadXmMXPq1VeHtxro_Xy-87">
+        <mxCell id="WadXmMXPq1VeHtxro_Xy-89" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;fontColor=#FFFFFF;strokeWidth=4;fillColor=#f5f5f5;strokeColor=#666666;" parent="1" source="WadXmMXPq1VeHtxro_Xy-86" target="WadXmMXPq1VeHtxro_Xy-87" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="WadXmMXPq1VeHtxro_Xy-86" value="补贴金额验证" style="rhombus;fillColor=#f5f5f5;strokeColor=#666666;rounded=1;shadow=1;fontStyle=1;fontSize=14;fontColor=#333333;" vertex="1" parent="1">
+        <mxCell id="WadXmMXPq1VeHtxro_Xy-86" value="补贴金额验证" style="rhombus;fillColor=#f5f5f5;strokeColor=#666666;rounded=1;shadow=1;fontStyle=1;fontSize=14;fontColor=#333333;" parent="1" vertex="1">
           <mxGeometry x="661" y="4890" width="180" height="100" as="geometry" />
         </mxCell>
-        <mxCell id="WadXmMXPq1VeHtxro_Xy-91" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;fontColor=#FFFFFF;strokeWidth=4;" edge="1" parent="1" source="WadXmMXPq1VeHtxro_Xy-87" target="WadXmMXPq1VeHtxro_Xy-90">
+        <mxCell id="WadXmMXPq1VeHtxro_Xy-91" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;fontColor=#FFFFFF;strokeWidth=4;" parent="1" source="WadXmMXPq1VeHtxro_Xy-87" target="WadXmMXPq1VeHtxro_Xy-90" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="WadXmMXPq1VeHtxro_Xy-94" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;fontColor=#000000;strokeWidth=4;" edge="1" parent="1" source="WadXmMXPq1VeHtxro_Xy-87" target="WadXmMXPq1VeHtxro_Xy-93">
+        <mxCell id="WadXmMXPq1VeHtxro_Xy-94" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;fontColor=#000000;strokeWidth=4;" parent="1" source="WadXmMXPq1VeHtxro_Xy-87" target="WadXmMXPq1VeHtxro_Xy-93" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="WadXmMXPq1VeHtxro_Xy-87" value="当员工生日不为空 且 员工等级不为空&#xa;时，根据等级对应的套餐查询套餐下&#xa;所有年龄段的方案，&#xa;判断是否有按照年龄医保计算保费的方案" style="rounded=1;shadow=1;fontStyle=1;fontSize=14;strokeColor=#666666;fillColor=#f5f5f5;fontColor=#333333;" vertex="1" parent="1">
+        <mxCell id="WadXmMXPq1VeHtxro_Xy-87" value="当员工生日不为空 且 员工等级不为空&#xa;时，根据等级对应的套餐查询套餐下&#xa;所有年龄段的方案，&#xa;判断是否有按照年龄医保计算保费的方案" style="rounded=1;shadow=1;fontStyle=1;fontSize=14;strokeColor=#666666;fillColor=#f5f5f5;fontColor=#333333;" parent="1" vertex="1">
           <mxGeometry x="599" y="5060" width="304" height="100" as="geometry" />
         </mxCell>
-        <mxCell id="WadXmMXPq1VeHtxro_Xy-90" value="对应套餐方案中含有区分医保类型&#xa;收费的方案，医保类型必填" style="rounded=1;shadow=1;fontStyle=1;fontSize=14;strokeColor=#666666;fillColor=#f5f5f5;fontColor=#333333;" vertex="1" parent="1">
+        <mxCell id="WadXmMXPq1VeHtxro_Xy-90" value="对应套餐方案中含有区分医保类型&#xa;收费的方案，医保类型必填" style="rounded=1;shadow=1;fontStyle=1;fontSize=14;strokeColor=#666666;fillColor=#f5f5f5;fontColor=#333333;" parent="1" vertex="1">
           <mxGeometry x="1140" y="5080" width="270" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="WadXmMXPq1VeHtxro_Xy-92" value="如果医保类型为空 且 按照包含按年龄医保计算的方案" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=#82b366;fillColor=#d5e8d4;" vertex="1" parent="1">
+        <mxCell id="WadXmMXPq1VeHtxro_Xy-92" value="如果医保类型为空 且 按照包含按年龄医保计算的方案" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=#82b366;fillColor=#d5e8d4;" parent="1" vertex="1">
           <mxGeometry x="869.5" y="5060" width="300" height="20" as="geometry" />
         </mxCell>
-        <mxCell id="WadXmMXPq1VeHtxro_Xy-98" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;fontColor=#000000;strokeWidth=4;" edge="1" parent="1" source="WadXmMXPq1VeHtxro_Xy-93" target="WadXmMXPq1VeHtxro_Xy-97">
+        <mxCell id="WadXmMXPq1VeHtxro_Xy-98" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;fontColor=#000000;strokeWidth=4;" parent="1" source="WadXmMXPq1VeHtxro_Xy-93" target="WadXmMXPq1VeHtxro_Xy-97" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="WadXmMXPq1VeHtxro_Xy-99" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fontColor=#000000;strokeWidth=4;" edge="1" parent="1" source="WadXmMXPq1VeHtxro_Xy-93" target="WadXmMXPq1VeHtxro_Xy-96">
+        <mxCell id="WadXmMXPq1VeHtxro_Xy-99" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fontColor=#000000;strokeWidth=4;" parent="1" source="WadXmMXPq1VeHtxro_Xy-93" target="WadXmMXPq1VeHtxro_Xy-96" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="WadXmMXPq1VeHtxro_Xy-100" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fontColor=#000000;strokeWidth=4;" edge="1" parent="1" source="WadXmMXPq1VeHtxro_Xy-93" target="WadXmMXPq1VeHtxro_Xy-95">
+        <mxCell id="WadXmMXPq1VeHtxro_Xy-100" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fontColor=#000000;strokeWidth=4;" parent="1" source="WadXmMXPq1VeHtxro_Xy-93" target="WadXmMXPq1VeHtxro_Xy-95" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="WadXmMXPq1VeHtxro_Xy-102" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fontColor=#000000;strokeWidth=4;" edge="1" parent="1" source="WadXmMXPq1VeHtxro_Xy-93" target="WadXmMXPq1VeHtxro_Xy-101">
+        <mxCell id="WadXmMXPq1VeHtxro_Xy-102" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fontColor=#000000;strokeWidth=4;" parent="1" source="WadXmMXPq1VeHtxro_Xy-93" target="WadXmMXPq1VeHtxro_Xy-101" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="WadXmMXPq1VeHtxro_Xy-104" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;fontColor=#000000;strokeWidth=4;" edge="1" parent="1" source="WadXmMXPq1VeHtxro_Xy-93">
+        <mxCell id="WadXmMXPq1VeHtxro_Xy-104" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;fontColor=#000000;strokeWidth=4;" parent="1" source="WadXmMXPq1VeHtxro_Xy-93" edge="1">
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="751" y="5430" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="WadXmMXPq1VeHtxro_Xy-93" value="补贴金额验证：&#xa;1、连带不能填写单位补贴金额&#xa;2、如果被保险人属性为主被保险人，则：&#xa;&lt;2.1&gt; 单位补贴金额不能为空&#xa;&lt;2.2&gt;金额的格式校验&#xa;&lt;2.3&gt; 单位补贴金额不得大于主被默认方案金额" style="rounded=1;shadow=1;fontStyle=1;fontSize=14;strokeColor=#666666;fillColor=#f5f5f5;fontColor=#333333;align=left;" vertex="1" parent="1">
+        <mxCell id="WadXmMXPq1VeHtxro_Xy-93" value="补贴金额验证：&#xa;1、连带不能填写单位补贴金额&#xa;2、如果被保险人属性为主被保险人，则：&#xa;&lt;2.1&gt; 单位补贴金额不能为空&#xa;&lt;2.2&gt;金额的格式校验&#xa;&lt;2.3&gt; 单位补贴金额不得大于主被默认方案金额" style="rounded=1;shadow=1;fontStyle=1;fontSize=14;strokeColor=#666666;fillColor=#f5f5f5;fontColor=#333333;align=left;" parent="1" vertex="1">
           <mxGeometry x="599" y="5240" width="304" height="120" as="geometry" />
         </mxCell>
-        <mxCell id="WadXmMXPq1VeHtxro_Xy-95" value="单位补贴金额不正确" style="rounded=1;shadow=1;fontStyle=1;fontSize=14;strokeColor=#666666;fillColor=#f5f5f5;fontColor=#333333;" vertex="1" parent="1">
+        <mxCell id="WadXmMXPq1VeHtxro_Xy-95" value="单位补贴金额不正确" style="rounded=1;shadow=1;fontStyle=1;fontSize=14;strokeColor=#666666;fillColor=#f5f5f5;fontColor=#333333;" parent="1" vertex="1">
           <mxGeometry x="1140" y="5470" width="270" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="WadXmMXPq1VeHtxro_Xy-96" value="单位补贴金额不能为空" style="rounded=1;shadow=1;fontStyle=1;fontSize=14;strokeColor=#666666;fillColor=#f5f5f5;fontColor=#333333;" vertex="1" parent="1">
+        <mxCell id="WadXmMXPq1VeHtxro_Xy-96" value="单位补贴金额不能为空" style="rounded=1;shadow=1;fontStyle=1;fontSize=14;strokeColor=#666666;fillColor=#f5f5f5;fontColor=#333333;" parent="1" vertex="1">
           <mxGeometry x="1140" y="5370" width="270" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="WadXmMXPq1VeHtxro_Xy-97" value="连带不能填写单位补贴金额" style="rounded=1;shadow=1;fontStyle=1;fontSize=14;strokeColor=#666666;fillColor=#f5f5f5;fontColor=#333333;" vertex="1" parent="1">
+        <mxCell id="WadXmMXPq1VeHtxro_Xy-97" value="连带不能填写单位补贴金额" style="rounded=1;shadow=1;fontStyle=1;fontSize=14;strokeColor=#666666;fillColor=#f5f5f5;fontColor=#333333;" parent="1" vertex="1">
           <mxGeometry x="1140" y="5270" width="270" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="WadXmMXPq1VeHtxro_Xy-101" value="单位补贴金额应不低&lt;主被默认方案金额&gt;元" style="rounded=1;shadow=1;fontStyle=1;fontSize=14;strokeColor=#666666;fillColor=#f5f5f5;fontColor=#333333;" vertex="1" parent="1">
+        <mxCell id="WadXmMXPq1VeHtxro_Xy-101" value="单位补贴金额应不低&lt;主被默认方案金额&gt;元" style="rounded=1;shadow=1;fontStyle=1;fontSize=14;strokeColor=#666666;fillColor=#f5f5f5;fontColor=#333333;" parent="1" vertex="1">
           <mxGeometry x="1140" y="5570" width="270" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="WadXmMXPq1VeHtxro_Xy-109" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fontColor=#000000;strokeWidth=4;" edge="1" parent="1" source="WadXmMXPq1VeHtxro_Xy-103" target="WadXmMXPq1VeHtxro_Xy-105">
+        <mxCell id="WadXmMXPq1VeHtxro_Xy-109" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fontColor=#000000;strokeWidth=4;" parent="1" source="WadXmMXPq1VeHtxro_Xy-103" target="WadXmMXPq1VeHtxro_Xy-105" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="WadXmMXPq1VeHtxro_Xy-116" style="edgeStyle=elbowEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;elbow=vertical;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;fontColor=#000000;strokeWidth=4;" edge="1" parent="1" source="WadXmMXPq1VeHtxro_Xy-103" target="WadXmMXPq1VeHtxro_Xy-113">
+        <mxCell id="WadXmMXPq1VeHtxro_Xy-116" style="edgeStyle=elbowEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;elbow=vertical;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;fontColor=#000000;strokeWidth=4;" parent="1" source="WadXmMXPq1VeHtxro_Xy-103" target="WadXmMXPq1VeHtxro_Xy-113" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="WadXmMXPq1VeHtxro_Xy-103" value="职业代码是否为空" style="rhombus;fillColor=#f5f5f5;strokeColor=#666666;rounded=1;shadow=1;fontStyle=1;fontSize=14;fontColor=#333333;" vertex="1" parent="1">
+        <mxCell id="WadXmMXPq1VeHtxro_Xy-103" value="职业代码是否为空" style="rhombus;fillColor=#f5f5f5;strokeColor=#666666;rounded=1;shadow=1;fontStyle=1;fontSize=14;fontColor=#333333;" parent="1" vertex="1">
           <mxGeometry x="658.5" y="5440" width="180" height="100" as="geometry" />
         </mxCell>
-        <mxCell id="WadXmMXPq1VeHtxro_Xy-111" style="edgeStyle=elbowEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;elbow=vertical;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;fontColor=#000000;strokeWidth=4;" edge="1" parent="1" source="WadXmMXPq1VeHtxro_Xy-105" target="WadXmMXPq1VeHtxro_Xy-108">
+        <mxCell id="WadXmMXPq1VeHtxro_Xy-111" style="edgeStyle=elbowEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;elbow=vertical;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;fontColor=#000000;strokeWidth=4;" parent="1" source="WadXmMXPq1VeHtxro_Xy-105" target="WadXmMXPq1VeHtxro_Xy-108" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="WadXmMXPq1VeHtxro_Xy-105" value="职业代码不能为空" style="rounded=1;shadow=1;fontStyle=1;fontSize=14;strokeColor=#666666;fillColor=#f5f5f5;fontColor=#333333;" vertex="1" parent="1">
+        <mxCell id="WadXmMXPq1VeHtxro_Xy-105" value="职业代码不能为空" style="rounded=1;shadow=1;fontStyle=1;fontSize=14;strokeColor=#666666;fillColor=#f5f5f5;fontColor=#333333;" parent="1" vertex="1">
           <mxGeometry x="1140" y="5690" width="270" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="WadXmMXPq1VeHtxro_Xy-144" style="edgeStyle=elbowEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;fontColor=#000000;strokeWidth=4;" edge="1" parent="1" source="WadXmMXPq1VeHtxro_Xy-108" target="WadXmMXPq1VeHtxro_Xy-143">
+        <mxCell id="WadXmMXPq1VeHtxro_Xy-144" style="edgeStyle=elbowEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;fontColor=#000000;strokeWidth=4;" parent="1" source="WadXmMXPq1VeHtxro_Xy-108" target="WadXmMXPq1VeHtxro_Xy-143" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="WadXmMXPq1VeHtxro_Xy-108" value="被保险人信息验证" style="rounded=1;shadow=1;fontStyle=1;fontSize=14;strokeColor=#d79b00;fillColor=#ffe6cc;align=center;" vertex="1" parent="1">
+        <mxCell id="WadXmMXPq1VeHtxro_Xy-108" value="被保险人信息验证" style="rounded=1;shadow=1;fontStyle=1;fontSize=14;strokeColor=#d79b00;fillColor=#ffe6cc;align=center;" parent="1" vertex="1">
           <mxGeometry x="627.5" y="5840" width="241" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="WadXmMXPq1VeHtxro_Xy-112" value="职业代码为空" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=#82b366;fillColor=#d5e8d4;" vertex="1" parent="1">
+        <mxCell id="WadXmMXPq1VeHtxro_Xy-112" value="职业代码为空" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=#82b366;fillColor=#d5e8d4;" parent="1" vertex="1">
           <mxGeometry x="862" y="5460" width="90" height="20" as="geometry" />
         </mxCell>
-        <mxCell id="WadXmMXPq1VeHtxro_Xy-114" style="edgeStyle=elbowEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;elbow=vertical;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;fontColor=#000000;strokeWidth=4;" edge="1" parent="1" source="WadXmMXPq1VeHtxro_Xy-113" target="WadXmMXPq1VeHtxro_Xy-108">
+        <mxCell id="WadXmMXPq1VeHtxro_Xy-114" style="edgeStyle=elbowEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;elbow=vertical;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;fontColor=#000000;strokeWidth=4;" parent="1" source="WadXmMXPq1VeHtxro_Xy-113" target="WadXmMXPq1VeHtxro_Xy-108" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="WadXmMXPq1VeHtxro_Xy-134" style="edgeStyle=elbowEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;entryX=1.033;entryY=0.348;entryDx=0;entryDy=0;entryPerimeter=0;fontColor=#000000;strokeWidth=4;" edge="1" parent="1" source="WadXmMXPq1VeHtxro_Xy-113" target="WadXmMXPq1VeHtxro_Xy-117">
+        <mxCell id="WadXmMXPq1VeHtxro_Xy-134" style="edgeStyle=elbowEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;entryX=1.033;entryY=0.348;entryDx=0;entryDy=0;entryPerimeter=0;fontColor=#000000;strokeWidth=4;" parent="1" source="WadXmMXPq1VeHtxro_Xy-113" target="WadXmMXPq1VeHtxro_Xy-117" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="WadXmMXPq1VeHtxro_Xy-113" value="职业代码是否存在" style="rhombus;fillColor=#f5f5f5;strokeColor=#666666;rounded=1;shadow=1;fontStyle=1;fontSize=14;fontColor=#333333;" vertex="1" parent="1">
+        <mxCell id="WadXmMXPq1VeHtxro_Xy-113" value="职业代码是否存在" style="rhombus;fillColor=#f5f5f5;strokeColor=#666666;rounded=1;shadow=1;fontStyle=1;fontSize=14;fontColor=#333333;" parent="1" vertex="1">
           <mxGeometry x="658.5" y="5600" width="180" height="100" as="geometry" />
         </mxCell>
-        <mxCell id="WadXmMXPq1VeHtxro_Xy-115" value="不存在" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=#82b366;fillColor=#d5e8d4;" vertex="1" parent="1">
+        <mxCell id="WadXmMXPq1VeHtxro_Xy-115" value="不存在" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=#82b366;fillColor=#d5e8d4;" parent="1" vertex="1">
           <mxGeometry x="725" y="5730" width="50" height="20" as="geometry" />
         </mxCell>
-        <mxCell id="WadXmMXPq1VeHtxro_Xy-126" style="edgeStyle=elbowEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;elbow=vertical;html=1;fontColor=#000000;strokeWidth=4;" edge="1" parent="1" source="WadXmMXPq1VeHtxro_Xy-117" target="WadXmMXPq1VeHtxro_Xy-125">
+        <mxCell id="WadXmMXPq1VeHtxro_Xy-126" style="edgeStyle=elbowEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;elbow=vertical;html=1;fontColor=#000000;strokeWidth=4;" parent="1" source="WadXmMXPq1VeHtxro_Xy-117" target="WadXmMXPq1VeHtxro_Xy-125" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="WadXmMXPq1VeHtxro_Xy-129" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;fontColor=#000000;strokeWidth=4;" edge="1" parent="1" source="WadXmMXPq1VeHtxro_Xy-117" target="WadXmMXPq1VeHtxro_Xy-128">
+        <mxCell id="WadXmMXPq1VeHtxro_Xy-129" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;fontColor=#000000;strokeWidth=4;" parent="1" source="WadXmMXPq1VeHtxro_Xy-117" target="WadXmMXPq1VeHtxro_Xy-128" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="WadXmMXPq1VeHtxro_Xy-133" style="rounded=1;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fontColor=#000000;strokeWidth=4;edgeStyle=elbowEdgeStyle;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="WadXmMXPq1VeHtxro_Xy-117" target="WadXmMXPq1VeHtxro_Xy-108">
+        <mxCell id="WadXmMXPq1VeHtxro_Xy-133" style="rounded=1;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fontColor=#000000;strokeWidth=4;edgeStyle=elbowEdgeStyle;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" parent="1" source="WadXmMXPq1VeHtxro_Xy-117" target="WadXmMXPq1VeHtxro_Xy-108" edge="1">
           <mxGeometry relative="1" as="geometry">
             <Array as="points">
               <mxPoint x="496" y="5850" />
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="WadXmMXPq1VeHtxro_Xy-117" value="&#xa;1、如果百胜传过来的主被&#xa;      职业代码是 9999999 的话&#xa;      系统判断职业代码不存在&#xa;2、如果百胜连带传过来的&#xa;      职业代码是9999999的话&#xa;      系统判断职业代码存在&#xa;3、职业代码存在 且 职业代码&#xa;      不是 9999999 且 人员等级&#xa;      不为空时 根据 职业代码获&#xa;      取 职业代码类别，判断职&#xa;      业代码是否职业类别限定，&#xa;     “特定”的职业类型是7" style="rounded=1;shadow=1;fontStyle=1;fontSize=14;strokeColor=#666666;fillColor=#f5f5f5;fontColor=#333333;align=left;verticalAlign=top;direction=east;" vertex="1" parent="1">
+        <mxCell id="WadXmMXPq1VeHtxro_Xy-117" value="&#xa;1、如果百胜传过来的主被&#xa;      职业代码是 9999999 的话&#xa;      系统判断职业代码不存在&#xa;2、如果百胜连带传过来的&#xa;      职业代码是9999999的话&#xa;      系统判断职业代码存在&#xa;3、职业代码存在 且 职业代码&#xa;      不是 9999999 且 人员等级&#xa;      不为空时 根据 职业代码获&#xa;      取 职业代码类别，判断职&#xa;      业代码是否职业类别限定，&#xa;     “特定”的职业类型是7" style="rounded=1;shadow=1;fontStyle=1;fontSize=14;strokeColor=#666666;fillColor=#f5f5f5;fontColor=#333333;align=left;verticalAlign=top;direction=east;" parent="1" vertex="1">
           <mxGeometry x="398.5" y="5570" width="195" height="230" as="geometry" />
         </mxCell>
-        <mxCell id="WadXmMXPq1VeHtxro_Xy-122" value="存在" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=#82b366;fillColor=#d5e8d4;" vertex="1" parent="1">
+        <mxCell id="WadXmMXPq1VeHtxro_Xy-122" value="存在" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=#82b366;fillColor=#d5e8d4;" parent="1" vertex="1">
           <mxGeometry x="620.5" y="5620" width="40" height="20" as="geometry" />
         </mxCell>
-        <mxCell id="WadXmMXPq1VeHtxro_Xy-125" value="职业代码不存在" style="rounded=1;shadow=1;fontStyle=1;fontSize=14;strokeColor=#666666;fillColor=#f5f5f5;fontColor=#333333;" vertex="1" parent="1">
+        <mxCell id="WadXmMXPq1VeHtxro_Xy-125" value="职业代码不存在" style="rounded=1;shadow=1;fontStyle=1;fontSize=14;strokeColor=#666666;fillColor=#f5f5f5;fontColor=#333333;" parent="1" vertex="1">
           <mxGeometry x="60" y="5620" width="270" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="WadXmMXPq1VeHtxro_Xy-127" value="1、2" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=#82b366;fillColor=#d5e8d4;" vertex="1" parent="1">
+        <mxCell id="WadXmMXPq1VeHtxro_Xy-127" value="1、2" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=#82b366;fillColor=#d5e8d4;" parent="1" vertex="1">
           <mxGeometry x="350" y="5620" width="40" height="20" as="geometry" />
         </mxCell>
-        <mxCell id="WadXmMXPq1VeHtxro_Xy-128" value="职业类别应为 ?--? 类实际为 ？ 类" style="rounded=1;shadow=1;fontStyle=1;fontSize=14;strokeColor=#666666;fillColor=#f5f5f5;fontColor=#333333;" vertex="1" parent="1">
+        <mxCell id="WadXmMXPq1VeHtxro_Xy-128" value="职业类别应为 ?--? 类实际为 ？ 类" style="rounded=1;shadow=1;fontStyle=1;fontSize=14;strokeColor=#666666;fillColor=#f5f5f5;fontColor=#333333;" parent="1" vertex="1">
           <mxGeometry x="60" y="5740" width="270" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="WadXmMXPq1VeHtxro_Xy-130" value="3" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=#82b366;fillColor=#d5e8d4;" vertex="1" parent="1">
+        <mxCell id="WadXmMXPq1VeHtxro_Xy-130" value="3" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=#82b366;fillColor=#d5e8d4;" parent="1" vertex="1">
           <mxGeometry x="340" y="5710" width="20" height="20" as="geometry" />
         </mxCell>
-        <mxCell id="WadXmMXPq1VeHtxro_Xy-139" value="" style="endArrow=none;dashed=1;html=1;fontColor=#000000;strokeWidth=4;" edge="1" parent="1">
+        <mxCell id="WadXmMXPq1VeHtxro_Xy-139" value="" style="endArrow=none;dashed=1;html=1;fontColor=#000000;strokeWidth=4;" parent="1" edge="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
             <mxPoint x="560" y="640" as="sourcePoint" />
             <mxPoint x="1440" y="640" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="WadXmMXPq1VeHtxro_Xy-140" value="" style="endArrow=none;dashed=1;html=1;fontColor=#000000;strokeWidth=4;" edge="1" parent="1">
+        <mxCell id="WadXmMXPq1VeHtxro_Xy-140" value="" style="endArrow=none;dashed=1;html=1;fontColor=#000000;strokeWidth=4;" parent="1" edge="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
             <mxPoint x="1440" y="1240" as="sourcePoint" />
             <mxPoint x="1440" y="640" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="WadXmMXPq1VeHtxro_Xy-141" value="" style="endArrow=none;dashed=1;html=1;fontColor=#000000;strokeWidth=4;" edge="1" parent="1">
+        <mxCell id="WadXmMXPq1VeHtxro_Xy-141" value="" style="endArrow=none;dashed=1;html=1;fontColor=#000000;strokeWidth=4;" parent="1" edge="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
             <mxPoint x="560" y="640" as="sourcePoint" />
             <mxPoint x="560" y="1240" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="WadXmMXPq1VeHtxro_Xy-142" value="" style="endArrow=none;dashed=1;html=1;fontColor=#000000;strokeWidth=4;" edge="1" parent="1">
+        <mxCell id="WadXmMXPq1VeHtxro_Xy-142" value="" style="endArrow=none;dashed=1;html=1;fontColor=#000000;strokeWidth=4;" parent="1" edge="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
             <mxPoint x="560" y="1240" as="sourcePoint" />
             <mxPoint x="1440" y="1240" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="WadXmMXPq1VeHtxro_Xy-145" style="edgeStyle=elbowEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;fontColor=#000000;strokeWidth=4;" edge="1" parent="1" source="WadXmMXPq1VeHtxro_Xy-143">
+        <mxCell id="WadXmMXPq1VeHtxro_Xy-145" style="edgeStyle=elbowEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;fontColor=#000000;strokeWidth=4;" parent="1" source="WadXmMXPq1VeHtxro_Xy-143" edge="1">
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="1440" y="950" as="targetPoint" />
             <Array as="points">
@@ -614,247 +614,247 @@
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="WadXmMXPq1VeHtxro_Xy-147" style="edgeStyle=elbowEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;fontColor=#000000;strokeWidth=4;" edge="1" parent="1" source="WadXmMXPq1VeHtxro_Xy-143" target="WadXmMXPq1VeHtxro_Xy-146">
+        <mxCell id="WadXmMXPq1VeHtxro_Xy-147" style="edgeStyle=elbowEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;fontColor=#000000;strokeWidth=4;" parent="1" source="WadXmMXPq1VeHtxro_Xy-143" target="WadXmMXPq1VeHtxro_Xy-146" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="WadXmMXPq1VeHtxro_Xy-143" value="被保险人姓名是否合法" style="rhombus;fillColor=#ffe6cc;strokeColor=#d79b00;rounded=1;shadow=1;fontStyle=1;fontSize=14;" vertex="1" parent="1">
+        <mxCell id="WadXmMXPq1VeHtxro_Xy-143" value="被保险人姓名是否合法" style="rhombus;fillColor=#ffe6cc;strokeColor=#d79b00;rounded=1;shadow=1;fontStyle=1;fontSize=14;" parent="1" vertex="1">
           <mxGeometry x="658" y="5920" width="180" height="100" as="geometry" />
         </mxCell>
-        <mxCell id="WadXmMXPq1VeHtxro_Xy-149" style="edgeStyle=elbowEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;fontColor=#000000;strokeWidth=4;" edge="1" parent="1" source="WadXmMXPq1VeHtxro_Xy-146" target="WadXmMXPq1VeHtxro_Xy-148">
+        <mxCell id="WadXmMXPq1VeHtxro_Xy-149" style="edgeStyle=elbowEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;fontColor=#000000;strokeWidth=4;" parent="1" source="WadXmMXPq1VeHtxro_Xy-146" target="WadXmMXPq1VeHtxro_Xy-148" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="WadXmMXPq1VeHtxro_Xy-157" style="edgeStyle=elbowEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;fontColor=#000000;strokeWidth=4;" edge="1" parent="1" source="WadXmMXPq1VeHtxro_Xy-146" target="WadXmMXPq1VeHtxro_Xy-156">
+        <mxCell id="WadXmMXPq1VeHtxro_Xy-157" style="edgeStyle=elbowEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;fontColor=#000000;strokeWidth=4;" parent="1" source="WadXmMXPq1VeHtxro_Xy-146" target="WadXmMXPq1VeHtxro_Xy-156" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="WadXmMXPq1VeHtxro_Xy-146" value="被保险人证件类型&#xa;是否合法" style="rhombus;fillColor=#ffe6cc;strokeColor=#d79b00;rounded=1;shadow=1;fontStyle=1;fontSize=14;" vertex="1" parent="1">
+        <mxCell id="WadXmMXPq1VeHtxro_Xy-146" value="被保险人证件类型&#xa;是否合法" style="rhombus;fillColor=#ffe6cc;strokeColor=#d79b00;rounded=1;shadow=1;fontStyle=1;fontSize=14;" parent="1" vertex="1">
           <mxGeometry x="658" y="6050" width="180" height="100" as="geometry" />
         </mxCell>
-        <mxCell id="WadXmMXPq1VeHtxro_Xy-153" style="edgeStyle=elbowEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;fontColor=#000000;strokeWidth=4;" edge="1" parent="1" source="WadXmMXPq1VeHtxro_Xy-148" target="WadXmMXPq1VeHtxro_Xy-150">
+        <mxCell id="WadXmMXPq1VeHtxro_Xy-153" style="edgeStyle=elbowEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;fontColor=#000000;strokeWidth=4;" parent="1" source="WadXmMXPq1VeHtxro_Xy-148" target="WadXmMXPq1VeHtxro_Xy-150" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="WadXmMXPq1VeHtxro_Xy-154" style="edgeStyle=elbowEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;fontColor=#000000;strokeWidth=4;" edge="1" parent="1" source="WadXmMXPq1VeHtxro_Xy-148" target="WadXmMXPq1VeHtxro_Xy-151">
+        <mxCell id="WadXmMXPq1VeHtxro_Xy-154" style="edgeStyle=elbowEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;fontColor=#000000;strokeWidth=4;" parent="1" source="WadXmMXPq1VeHtxro_Xy-148" target="WadXmMXPq1VeHtxro_Xy-151" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="WadXmMXPq1VeHtxro_Xy-155" style="edgeStyle=elbowEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;fontColor=#000000;strokeWidth=4;" edge="1" parent="1" source="WadXmMXPq1VeHtxro_Xy-148" target="WadXmMXPq1VeHtxro_Xy-152">
+        <mxCell id="WadXmMXPq1VeHtxro_Xy-155" style="edgeStyle=elbowEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;fontColor=#000000;strokeWidth=4;" parent="1" source="WadXmMXPq1VeHtxro_Xy-148" target="WadXmMXPq1VeHtxro_Xy-152" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="WadXmMXPq1VeHtxro_Xy-148" value="被保险人证件类型验证：&#xa;1、证件类型不能为空&#xa;2、中国出生医学证明和内部证件对应的&#xa;      被保险人属性只能是 子女、孙（外孙）子女&#xa;3、不允许出现模板中可选证件类型以外的证件&#xa;      类型" style="rounded=1;shadow=1;fontStyle=1;fontSize=14;strokeColor=#d79b00;fillColor=#ffe6cc;align=left;" vertex="1" parent="1">
+        <mxCell id="WadXmMXPq1VeHtxro_Xy-148" value="被保险人证件类型验证：&#xa;1、证件类型不能为空&#xa;2、中国出生医学证明和内部证件对应的&#xa;      被保险人属性只能是 子女、孙（外孙）子女&#xa;3、不允许出现模板中可选证件类型以外的证件&#xa;      类型" style="rounded=1;shadow=1;fontStyle=1;fontSize=14;strokeColor=#d79b00;fillColor=#ffe6cc;align=left;" parent="1" vertex="1">
           <mxGeometry x="323.5" y="6040" width="304" height="120" as="geometry" />
         </mxCell>
-        <mxCell id="WadXmMXPq1VeHtxro_Xy-150" value="证件类型不能为空" style="rounded=1;shadow=1;fontStyle=1;fontSize=14;strokeColor=#d79b00;fillColor=#ffe6cc;" vertex="1" parent="1">
+        <mxCell id="WadXmMXPq1VeHtxro_Xy-150" value="证件类型不能为空" style="rounded=1;shadow=1;fontStyle=1;fontSize=14;strokeColor=#d79b00;fillColor=#ffe6cc;" parent="1" vertex="1">
           <mxGeometry y="6070" width="270" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="WadXmMXPq1VeHtxro_Xy-151" value="该证件类型只有子女可选" style="rounded=1;shadow=1;fontStyle=1;fontSize=14;strokeColor=#d79b00;fillColor=#ffe6cc;" vertex="1" parent="1">
+        <mxCell id="WadXmMXPq1VeHtxro_Xy-151" value="该证件类型只有子女可选" style="rounded=1;shadow=1;fontStyle=1;fontSize=14;strokeColor=#d79b00;fillColor=#ffe6cc;" parent="1" vertex="1">
           <mxGeometry y="6190" width="270" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="WadXmMXPq1VeHtxro_Xy-152" value="证件类型不存在" style="rounded=1;shadow=1;fontStyle=1;fontSize=14;strokeColor=#d79b00;fillColor=#ffe6cc;" vertex="1" parent="1">
+        <mxCell id="WadXmMXPq1VeHtxro_Xy-152" value="证件类型不存在" style="rounded=1;shadow=1;fontStyle=1;fontSize=14;strokeColor=#d79b00;fillColor=#ffe6cc;" parent="1" vertex="1">
           <mxGeometry y="6310" width="270" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="WadXmMXPq1VeHtxro_Xy-159" style="edgeStyle=elbowEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;fontColor=#000000;strokeWidth=4;" edge="1" parent="1" source="WadXmMXPq1VeHtxro_Xy-156" target="WadXmMXPq1VeHtxro_Xy-158">
+        <mxCell id="WadXmMXPq1VeHtxro_Xy-159" style="edgeStyle=elbowEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;fontColor=#000000;strokeWidth=4;" parent="1" source="WadXmMXPq1VeHtxro_Xy-156" target="WadXmMXPq1VeHtxro_Xy-158" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="WadXmMXPq1VeHtxro_Xy-163" style="edgeStyle=elbowEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;fontColor=#000000;strokeWidth=4;" edge="1" parent="1" source="WadXmMXPq1VeHtxro_Xy-156" target="WadXmMXPq1VeHtxro_Xy-160">
+        <mxCell id="WadXmMXPq1VeHtxro_Xy-163" style="edgeStyle=elbowEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;fontColor=#000000;strokeWidth=4;" parent="1" source="WadXmMXPq1VeHtxro_Xy-156" target="WadXmMXPq1VeHtxro_Xy-160" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="WadXmMXPq1VeHtxro_Xy-156" value="被保险人证件号&#xa;是否合法" style="rhombus;fillColor=#ffe6cc;strokeColor=#d79b00;rounded=1;shadow=1;fontStyle=1;fontSize=14;" vertex="1" parent="1">
+        <mxCell id="WadXmMXPq1VeHtxro_Xy-156" value="被保险人证件号&#xa;是否合法" style="rhombus;fillColor=#ffe6cc;strokeColor=#d79b00;rounded=1;shadow=1;fontStyle=1;fontSize=14;" parent="1" vertex="1">
           <mxGeometry x="658" y="6190" width="180" height="100" as="geometry" />
         </mxCell>
-        <mxCell id="WadXmMXPq1VeHtxro_Xy-158" value="被保险人证件号验证：&#xa;1、证件号不能为空&#xa;2、证件号不能大于18位&#xa;3、证件号不能重复&#xa;4、证件号格式校验&#xa;5、身份证长度必须为18位&#xa;6、外国人永久居留身份证只能是15位的&#xa;     英文或数字" style="rounded=1;shadow=1;fontStyle=1;fontSize=14;strokeColor=#d79b00;fillColor=#ffe6cc;align=left;" vertex="1" parent="1">
+        <mxCell id="WadXmMXPq1VeHtxro_Xy-158" value="被保险人证件号验证：&#xa;1、证件号不能为空&#xa;2、证件号不能大于18位&#xa;3、证件号不能重复&#xa;4、证件号格式校验&#xa;5、身份证长度必须为18位&#xa;6、外国人永久居留身份证只能是15位的&#xa;     英文或数字" style="rounded=1;shadow=1;fontStyle=1;fontSize=14;strokeColor=#d79b00;fillColor=#ffe6cc;align=left;" parent="1" vertex="1">
           <mxGeometry x="877" y="6160" width="304" height="160" as="geometry" />
         </mxCell>
-        <mxCell id="WadXmMXPq1VeHtxro_Xy-162" style="edgeStyle=elbowEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fontColor=#000000;strokeWidth=4;" edge="1" parent="1" source="WadXmMXPq1VeHtxro_Xy-160" target="WadXmMXPq1VeHtxro_Xy-161">
+        <mxCell id="WadXmMXPq1VeHtxro_Xy-162" style="edgeStyle=elbowEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fontColor=#000000;strokeWidth=4;" parent="1" source="WadXmMXPq1VeHtxro_Xy-160" target="WadXmMXPq1VeHtxro_Xy-161" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="WadXmMXPq1VeHtxro_Xy-165" style="edgeStyle=elbowEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;fontColor=#000000;strokeWidth=4;" edge="1" parent="1" source="WadXmMXPq1VeHtxro_Xy-160" target="WadXmMXPq1VeHtxro_Xy-164">
+        <mxCell id="WadXmMXPq1VeHtxro_Xy-165" style="edgeStyle=elbowEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;fontColor=#000000;strokeWidth=4;" parent="1" source="WadXmMXPq1VeHtxro_Xy-160" target="WadXmMXPq1VeHtxro_Xy-164" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="WadXmMXPq1VeHtxro_Xy-160" value="被保险人生日验证" style="rhombus;fillColor=#ffe6cc;strokeColor=#d79b00;rounded=1;shadow=1;fontStyle=1;fontSize=14;" vertex="1" parent="1">
+        <mxCell id="WadXmMXPq1VeHtxro_Xy-160" value="被保险人生日验证" style="rhombus;fillColor=#ffe6cc;strokeColor=#d79b00;rounded=1;shadow=1;fontStyle=1;fontSize=14;" parent="1" vertex="1">
           <mxGeometry x="658" y="6360" width="180" height="100" as="geometry" />
         </mxCell>
-        <mxCell id="WadXmMXPq1VeHtxro_Xy-161" value="被保险人生日验证：&#xa;1、没有填写出生年月日的用户，如果证件类型&#xa;     是身份证且证件合法，系统会获取证件号的&#xa;     出生年月获取年龄，根据承保规则校验年龄&#xa;    1.1 如果承包规则是空 则 限制&#xa;               可承包年龄必须大于16岁&#xa;    1.2 不为空 则 根据承保规则校验年龄" style="rounded=1;shadow=1;fontStyle=1;fontSize=14;strokeColor=#d79b00;fillColor=#ffe6cc;align=left;" vertex="1" parent="1">
+        <mxCell id="WadXmMXPq1VeHtxro_Xy-161" value="被保险人生日验证：&#xa;1、没有填写出生年月日的用户，如果证件类型&#xa;     是身份证且证件合法，系统会获取证件号的&#xa;     出生年月获取年龄，根据承保规则校验年龄&#xa;    1.1 如果承包规则是空 则 限制&#xa;               可承包年龄必须大于16岁&#xa;    1.2 不为空 则 根据承保规则校验年龄" style="rounded=1;shadow=1;fontStyle=1;fontSize=14;strokeColor=#d79b00;fillColor=#ffe6cc;align=left;" parent="1" vertex="1">
           <mxGeometry x="877" y="6330" width="304" height="160" as="geometry" />
         </mxCell>
-        <mxCell id="WadXmMXPq1VeHtxro_Xy-167" style="edgeStyle=elbowEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;fontColor=#000000;strokeWidth=4;" edge="1" parent="1" source="WadXmMXPq1VeHtxro_Xy-164" target="WadXmMXPq1VeHtxro_Xy-166">
+        <mxCell id="WadXmMXPq1VeHtxro_Xy-167" style="edgeStyle=elbowEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;fontColor=#000000;strokeWidth=4;" parent="1" source="WadXmMXPq1VeHtxro_Xy-164" target="WadXmMXPq1VeHtxro_Xy-166" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="WadXmMXPq1VeHtxro_Xy-169" style="edgeStyle=elbowEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;fontColor=#000000;strokeWidth=4;" edge="1" parent="1" source="WadXmMXPq1VeHtxro_Xy-164" target="WadXmMXPq1VeHtxro_Xy-168">
+        <mxCell id="WadXmMXPq1VeHtxro_Xy-169" style="edgeStyle=elbowEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;fontColor=#000000;strokeWidth=4;" parent="1" source="WadXmMXPq1VeHtxro_Xy-164" target="WadXmMXPq1VeHtxro_Xy-168" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="WadXmMXPq1VeHtxro_Xy-164" value="被保险人手机号验证" style="rhombus;fillColor=#ffe6cc;strokeColor=#d79b00;rounded=1;shadow=1;fontStyle=1;fontSize=14;" vertex="1" parent="1">
+        <mxCell id="WadXmMXPq1VeHtxro_Xy-164" value="被保险人手机号验证" style="rhombus;fillColor=#ffe6cc;strokeColor=#d79b00;rounded=1;shadow=1;fontStyle=1;fontSize=14;" parent="1" vertex="1">
           <mxGeometry x="658" y="6510" width="180" height="100" as="geometry" />
         </mxCell>
-        <mxCell id="WadXmMXPq1VeHtxro_Xy-166" value="被保险人手机号验证：&#xa;1、手机号非必填&#xa;2、如果被保险人证件号不为空 且 被保险人属性&#xa;    为 主被保险人 且 手机号不为空 的情况下，&#xa;    校验同一手机号是否已被别的用户使用&#xa;    以及 校验上传的附件中 手机号是否有重复" style="rounded=1;shadow=1;fontStyle=1;fontSize=14;strokeColor=#d79b00;fillColor=#ffe6cc;align=left;" vertex="1" parent="1">
+        <mxCell id="WadXmMXPq1VeHtxro_Xy-166" value="被保险人手机号验证：&#xa;1、手机号非必填&#xa;2、如果被保险人证件号不为空 且 被保险人属性&#xa;    为 主被保险人 且 手机号不为空 的情况下，&#xa;    校验同一手机号是否已被别的用户使用&#xa;    以及 校验上传的附件中 手机号是否有重复" style="rounded=1;shadow=1;fontStyle=1;fontSize=14;strokeColor=#d79b00;fillColor=#ffe6cc;align=left;" parent="1" vertex="1">
           <mxGeometry x="316.5" y="6480" width="304" height="160" as="geometry" />
         </mxCell>
-        <mxCell id="WadXmMXPq1VeHtxro_Xy-171" style="edgeStyle=elbowEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;fontColor=#000000;strokeWidth=4;" edge="1" parent="1" source="WadXmMXPq1VeHtxro_Xy-168" target="WadXmMXPq1VeHtxro_Xy-170">
+        <mxCell id="WadXmMXPq1VeHtxro_Xy-171" style="edgeStyle=elbowEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;fontColor=#000000;strokeWidth=4;" parent="1" source="WadXmMXPq1VeHtxro_Xy-168" target="WadXmMXPq1VeHtxro_Xy-170" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="WadXmMXPq1VeHtxro_Xy-173" style="edgeStyle=elbowEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;fontColor=#000000;strokeWidth=4;" edge="1" parent="1" source="WadXmMXPq1VeHtxro_Xy-168" target="WadXmMXPq1VeHtxro_Xy-172">
+        <mxCell id="WadXmMXPq1VeHtxro_Xy-173" style="edgeStyle=elbowEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;fontColor=#000000;strokeWidth=4;" parent="1" source="WadXmMXPq1VeHtxro_Xy-168" target="WadXmMXPq1VeHtxro_Xy-172" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="WadXmMXPq1VeHtxro_Xy-168" value="被保险人性别验证" style="rhombus;fillColor=#ffe6cc;strokeColor=#d79b00;rounded=1;shadow=1;fontStyle=1;fontSize=14;" vertex="1" parent="1">
+        <mxCell id="WadXmMXPq1VeHtxro_Xy-168" value="被保险人性别验证" style="rhombus;fillColor=#ffe6cc;strokeColor=#d79b00;rounded=1;shadow=1;fontStyle=1;fontSize=14;" parent="1" vertex="1">
           <mxGeometry x="658" y="6660" width="180" height="100" as="geometry" />
         </mxCell>
-        <mxCell id="WadXmMXPq1VeHtxro_Xy-170" value="被保险人性别验证：&#xa;1、证件类型不为空 且 证件类型不是身份证时&#xa;    性别不能为空&#xa;2、证件类型为空时  性别不能为空&#xa;3、性别不为空 且 证件类型是身份证时 校验 身&#xa;    份证隐含性别和录入的性别是否吻合&#xa;4、当录入了性别 但证件号为空时  系统反馈&#xa;    &quot;性别只能是男/女&quot;" style="rounded=1;shadow=1;fontStyle=1;fontSize=14;strokeColor=#d79b00;fillColor=#ffe6cc;align=left;" vertex="1" parent="1">
+        <mxCell id="WadXmMXPq1VeHtxro_Xy-170" value="被保险人性别验证：&#xa;1、证件类型不为空 且 证件类型不是身份证时&#xa;    性别不能为空&#xa;2、证件类型为空时  性别不能为空&#xa;3、性别不为空 且 证件类型是身份证时 校验 身&#xa;    份证隐含性别和录入的性别是否吻合&#xa;4、当录入了性别 但证件号为空时  系统反馈&#xa;    &quot;性别只能是男/女&quot;" style="rounded=1;shadow=1;fontStyle=1;fontSize=14;strokeColor=#d79b00;fillColor=#ffe6cc;align=left;" parent="1" vertex="1">
           <mxGeometry x="876.75" y="6630" width="304" height="160" as="geometry" />
         </mxCell>
-        <mxCell id="WadXmMXPq1VeHtxro_Xy-175" style="edgeStyle=elbowEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;fontColor=#000000;strokeWidth=4;" edge="1" parent="1" source="WadXmMXPq1VeHtxro_Xy-172" target="WadXmMXPq1VeHtxro_Xy-174">
+        <mxCell id="WadXmMXPq1VeHtxro_Xy-175" style="edgeStyle=elbowEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;fontColor=#000000;strokeWidth=4;" parent="1" source="WadXmMXPq1VeHtxro_Xy-172" target="WadXmMXPq1VeHtxro_Xy-174" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="WadXmMXPq1VeHtxro_Xy-177" style="edgeStyle=elbowEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;fontColor=#000000;strokeWidth=4;" edge="1" parent="1" source="WadXmMXPq1VeHtxro_Xy-172" target="WadXmMXPq1VeHtxro_Xy-176">
+        <mxCell id="WadXmMXPq1VeHtxro_Xy-177" style="edgeStyle=elbowEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;fontColor=#000000;strokeWidth=4;" parent="1" source="WadXmMXPq1VeHtxro_Xy-172" target="WadXmMXPq1VeHtxro_Xy-176" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="WadXmMXPq1VeHtxro_Xy-172" value="被保险人国籍验证" style="rhombus;fillColor=#ffe6cc;strokeColor=#d79b00;rounded=1;shadow=1;fontStyle=1;fontSize=14;" vertex="1" parent="1">
+        <mxCell id="WadXmMXPq1VeHtxro_Xy-172" value="被保险人国籍验证" style="rhombus;fillColor=#ffe6cc;strokeColor=#d79b00;rounded=1;shadow=1;fontStyle=1;fontSize=14;" parent="1" vertex="1">
           <mxGeometry x="658.5" y="6810" width="180" height="100" as="geometry" />
         </mxCell>
-        <mxCell id="WadXmMXPq1VeHtxro_Xy-174" value="被保险人国籍验证：&#xa;1、国籍不录入 默认 为中国&#xa;2、国籍录入 则 校验是否 系统是否存在该国籍" style="rounded=1;shadow=1;fontStyle=1;fontSize=14;strokeColor=#d79b00;fillColor=#ffe6cc;align=left;" vertex="1" parent="1">
+        <mxCell id="WadXmMXPq1VeHtxro_Xy-174" value="被保险人国籍验证：&#xa;1、国籍不录入 默认 为中国&#xa;2、国籍录入 则 校验是否 系统是否存在该国籍" style="rounded=1;shadow=1;fontStyle=1;fontSize=14;strokeColor=#d79b00;fillColor=#ffe6cc;align=left;" parent="1" vertex="1">
           <mxGeometry x="316.5" y="6820" width="304" height="80" as="geometry" />
         </mxCell>
-        <mxCell id="WadXmMXPq1VeHtxro_Xy-179" style="edgeStyle=elbowEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;fontColor=#000000;strokeWidth=4;" edge="1" parent="1" source="WadXmMXPq1VeHtxro_Xy-176" target="WadXmMXPq1VeHtxro_Xy-178">
+        <mxCell id="WadXmMXPq1VeHtxro_Xy-179" style="edgeStyle=elbowEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;fontColor=#000000;strokeWidth=4;" parent="1" source="WadXmMXPq1VeHtxro_Xy-176" target="WadXmMXPq1VeHtxro_Xy-178" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="WadXmMXPq1VeHtxro_Xy-181" style="edgeStyle=elbowEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;fontColor=#000000;strokeWidth=4;" edge="1" parent="1" source="WadXmMXPq1VeHtxro_Xy-176" target="WadXmMXPq1VeHtxro_Xy-180">
+        <mxCell id="WadXmMXPq1VeHtxro_Xy-181" style="edgeStyle=elbowEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;fontColor=#000000;strokeWidth=4;" parent="1" source="WadXmMXPq1VeHtxro_Xy-176" target="WadXmMXPq1VeHtxro_Xy-180" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="WadXmMXPq1VeHtxro_Xy-176" value="被保险人手机号格式验证" style="rhombus;fillColor=#ffe6cc;strokeColor=#d79b00;rounded=1;shadow=1;fontStyle=1;fontSize=14;" vertex="1" parent="1">
+        <mxCell id="WadXmMXPq1VeHtxro_Xy-176" value="被保险人手机号格式验证" style="rhombus;fillColor=#ffe6cc;strokeColor=#d79b00;rounded=1;shadow=1;fontStyle=1;fontSize=14;" parent="1" vertex="1">
           <mxGeometry x="659.5" y="6950" width="180" height="100" as="geometry" />
         </mxCell>
-        <mxCell id="WadXmMXPq1VeHtxro_Xy-178" value="被保险人手机号格式验证：&#xa;1、移动电话必须是11为数字且首位必须是1" style="rounded=1;shadow=1;fontStyle=1;fontSize=14;strokeColor=#d79b00;fillColor=#ffe6cc;align=left;" vertex="1" parent="1">
+        <mxCell id="WadXmMXPq1VeHtxro_Xy-178" value="被保险人手机号格式验证：&#xa;1、移动电话必须是11为数字且首位必须是1" style="rounded=1;shadow=1;fontStyle=1;fontSize=14;strokeColor=#d79b00;fillColor=#ffe6cc;align=left;" parent="1" vertex="1">
           <mxGeometry x="876.75" y="6975" width="304" height="50" as="geometry" />
         </mxCell>
-        <mxCell id="WadXmMXPq1VeHtxro_Xy-183" style="edgeStyle=elbowEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;fontColor=#000000;strokeWidth=4;" edge="1" parent="1" source="WadXmMXPq1VeHtxro_Xy-180" target="WadXmMXPq1VeHtxro_Xy-182">
+        <mxCell id="WadXmMXPq1VeHtxro_Xy-183" style="edgeStyle=elbowEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;fontColor=#000000;strokeWidth=4;" parent="1" source="WadXmMXPq1VeHtxro_Xy-180" target="WadXmMXPq1VeHtxro_Xy-182" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="WadXmMXPq1VeHtxro_Xy-185" style="edgeStyle=elbowEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;fontColor=#000000;strokeWidth=4;" edge="1" parent="1" source="WadXmMXPq1VeHtxro_Xy-180" target="WadXmMXPq1VeHtxro_Xy-184">
+        <mxCell id="WadXmMXPq1VeHtxro_Xy-185" style="edgeStyle=elbowEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;fontColor=#000000;strokeWidth=4;" parent="1" source="WadXmMXPq1VeHtxro_Xy-180" target="WadXmMXPq1VeHtxro_Xy-184" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="WadXmMXPq1VeHtxro_Xy-180" value="被保险人Email格式验证" style="rhombus;fillColor=#ffe6cc;strokeColor=#d79b00;rounded=1;shadow=1;fontStyle=1;fontSize=14;" vertex="1" parent="1">
+        <mxCell id="WadXmMXPq1VeHtxro_Xy-180" value="被保险人Email格式验证" style="rhombus;fillColor=#ffe6cc;strokeColor=#d79b00;rounded=1;shadow=1;fontStyle=1;fontSize=14;" parent="1" vertex="1">
           <mxGeometry x="658" y="7090" width="180" height="100" as="geometry" />
         </mxCell>
-        <mxCell id="WadXmMXPq1VeHtxro_Xy-182" value="被保险人Email格式验证：&#xa;1、Email中必须包含@符&#xa;2、Email的长度不能大于50" style="rounded=1;shadow=1;fontStyle=1;fontSize=14;strokeColor=#d79b00;fillColor=#ffe6cc;align=left;" vertex="1" parent="1">
+        <mxCell id="WadXmMXPq1VeHtxro_Xy-182" value="被保险人Email格式验证：&#xa;1、Email中必须包含@符&#xa;2、Email的长度不能大于50" style="rounded=1;shadow=1;fontStyle=1;fontSize=14;strokeColor=#d79b00;fillColor=#ffe6cc;align=left;" parent="1" vertex="1">
           <mxGeometry x="316.5" y="7105" width="304" height="70" as="geometry" />
         </mxCell>
-        <mxCell id="WadXmMXPq1VeHtxro_Xy-187" style="edgeStyle=elbowEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;fontColor=#000000;strokeWidth=4;" edge="1" parent="1" source="WadXmMXPq1VeHtxro_Xy-184" target="WadXmMXPq1VeHtxro_Xy-186">
+        <mxCell id="WadXmMXPq1VeHtxro_Xy-187" style="edgeStyle=elbowEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;fontColor=#000000;strokeWidth=4;" parent="1" source="WadXmMXPq1VeHtxro_Xy-184" target="WadXmMXPq1VeHtxro_Xy-186" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="WadXmMXPq1VeHtxro_Xy-191" style="edgeStyle=elbowEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;fontColor=#000000;strokeWidth=4;" edge="1" parent="1" source="WadXmMXPq1VeHtxro_Xy-184" target="WadXmMXPq1VeHtxro_Xy-188">
+        <mxCell id="WadXmMXPq1VeHtxro_Xy-191" style="edgeStyle=elbowEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;fontColor=#000000;strokeWidth=4;" parent="1" source="WadXmMXPq1VeHtxro_Xy-184" target="WadXmMXPq1VeHtxro_Xy-188" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="WadXmMXPq1VeHtxro_Xy-184" value="被保险人医保类型验证" style="rhombus;fillColor=#ffe6cc;strokeColor=#d79b00;rounded=1;shadow=1;fontStyle=1;fontSize=14;" vertex="1" parent="1">
+        <mxCell id="WadXmMXPq1VeHtxro_Xy-184" value="被保险人医保类型验证" style="rhombus;fillColor=#ffe6cc;strokeColor=#d79b00;rounded=1;shadow=1;fontStyle=1;fontSize=14;" parent="1" vertex="1">
           <mxGeometry x="658" y="7230" width="180" height="100" as="geometry" />
         </mxCell>
-        <mxCell id="WadXmMXPq1VeHtxro_Xy-186" value="被保险人医保类型验证：&#xa;1、医保类型 必须为 城镇职工基本医疗保险、&#xa;城镇居民基本医疗保险、新型农村合作医疗、&#xa;均为参与、其他，否则系统提示 医保类型不存在" style="rounded=1;shadow=1;fontStyle=1;fontSize=14;strokeColor=#d79b00;fillColor=#ffe6cc;align=left;" vertex="1" parent="1">
+        <mxCell id="WadXmMXPq1VeHtxro_Xy-186" value="被保险人医保类型验证：&#xa;1、医保类型 必须为 城镇职工基本医疗保险、&#xa;城镇居民基本医疗保险、新型农村合作医疗、&#xa;均为参与、其他，否则系统提示 医保类型不存在" style="rounded=1;shadow=1;fontStyle=1;fontSize=14;strokeColor=#d79b00;fillColor=#ffe6cc;align=left;" parent="1" vertex="1">
           <mxGeometry x="877" y="7245" width="304" height="70" as="geometry" />
         </mxCell>
-        <mxCell id="WadXmMXPq1VeHtxro_Xy-194" style="edgeStyle=elbowEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;fontColor=#000000;strokeWidth=4;" edge="1" parent="1" source="WadXmMXPq1VeHtxro_Xy-188" target="WadXmMXPq1VeHtxro_Xy-193">
+        <mxCell id="WadXmMXPq1VeHtxro_Xy-194" style="edgeStyle=elbowEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;fontColor=#000000;strokeWidth=4;" parent="1" source="WadXmMXPq1VeHtxro_Xy-188" target="WadXmMXPq1VeHtxro_Xy-193" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="WadXmMXPq1VeHtxro_Xy-188" value="被保险人医保地区验证" style="rhombus;fillColor=#ffe6cc;strokeColor=#d79b00;rounded=1;shadow=1;fontStyle=1;fontSize=14;" vertex="1" parent="1">
+        <mxCell id="WadXmMXPq1VeHtxro_Xy-188" value="被保险人医保地区验证" style="rhombus;fillColor=#ffe6cc;strokeColor=#d79b00;rounded=1;shadow=1;fontStyle=1;fontSize=14;" parent="1" vertex="1">
           <mxGeometry x="658" y="7370" width="180" height="100" as="geometry" />
         </mxCell>
-        <mxCell id="WadXmMXPq1VeHtxro_Xy-190" style="edgeStyle=elbowEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;fontColor=#000000;strokeWidth=4;" edge="1" parent="1" source="WadXmMXPq1VeHtxro_Xy-189" target="WadXmMXPq1VeHtxro_Xy-188">
+        <mxCell id="WadXmMXPq1VeHtxro_Xy-190" style="edgeStyle=elbowEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;fontColor=#000000;strokeWidth=4;" parent="1" source="WadXmMXPq1VeHtxro_Xy-189" target="WadXmMXPq1VeHtxro_Xy-188" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="WadXmMXPq1VeHtxro_Xy-189" value="被保险人医保地区验证：&#xa;1、医保类型为 &quot;均为参与&quot; 则不允许录入&#xa;    医保地区" style="rounded=1;shadow=1;fontStyle=1;fontSize=14;strokeColor=#d79b00;fillColor=#ffe6cc;align=left;" vertex="1" parent="1">
+        <mxCell id="WadXmMXPq1VeHtxro_Xy-189" value="被保险人医保地区验证：&#xa;1、医保类型为 &quot;均为参与&quot; 则不允许录入&#xa;    医保地区" style="rounded=1;shadow=1;fontStyle=1;fontSize=14;strokeColor=#d79b00;fillColor=#ffe6cc;align=left;" parent="1" vertex="1">
           <mxGeometry x="316.5" y="7385" width="304" height="70" as="geometry" />
         </mxCell>
-        <mxCell id="WadXmMXPq1VeHtxro_Xy-196" style="edgeStyle=elbowEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;fontColor=#000000;strokeWidth=4;" edge="1" parent="1" source="WadXmMXPq1VeHtxro_Xy-193" target="WadXmMXPq1VeHtxro_Xy-195">
+        <mxCell id="WadXmMXPq1VeHtxro_Xy-196" style="edgeStyle=elbowEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;fontColor=#000000;strokeWidth=4;" parent="1" source="WadXmMXPq1VeHtxro_Xy-193" target="WadXmMXPq1VeHtxro_Xy-195" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="WadXmMXPq1VeHtxro_Xy-198" style="edgeStyle=elbowEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;fontColor=#000000;strokeWidth=4;" edge="1" parent="1" source="WadXmMXPq1VeHtxro_Xy-193" target="WadXmMXPq1VeHtxro_Xy-197">
+        <mxCell id="WadXmMXPq1VeHtxro_Xy-198" style="edgeStyle=elbowEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;fontColor=#000000;strokeWidth=4;" parent="1" source="WadXmMXPq1VeHtxro_Xy-193" target="WadXmMXPq1VeHtxro_Xy-197" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="WadXmMXPq1VeHtxro_Xy-193" value="被保险人是否租赁验证" style="rhombus;fillColor=#ffe6cc;strokeColor=#d79b00;rounded=1;shadow=1;fontStyle=1;fontSize=14;" vertex="1" parent="1">
+        <mxCell id="WadXmMXPq1VeHtxro_Xy-193" value="被保险人是否租赁验证" style="rhombus;fillColor=#ffe6cc;strokeColor=#d79b00;rounded=1;shadow=1;fontStyle=1;fontSize=14;" parent="1" vertex="1">
           <mxGeometry x="658" y="7510" width="180" height="100" as="geometry" />
         </mxCell>
-        <mxCell id="WadXmMXPq1VeHtxro_Xy-195" value="被保险人是否租赁验证：&#xa;1、是否租赁只能 选择 是 / 否" style="rounded=1;shadow=1;fontStyle=1;fontSize=14;strokeColor=#d79b00;fillColor=#ffe6cc;align=left;" vertex="1" parent="1">
+        <mxCell id="WadXmMXPq1VeHtxro_Xy-195" value="被保险人是否租赁验证：&#xa;1、是否租赁只能 选择 是 / 否" style="rounded=1;shadow=1;fontStyle=1;fontSize=14;strokeColor=#d79b00;fillColor=#ffe6cc;align=left;" parent="1" vertex="1">
           <mxGeometry x="877" y="7525" width="304" height="70" as="geometry" />
         </mxCell>
-        <mxCell id="WadXmMXPq1VeHtxro_Xy-200" style="edgeStyle=elbowEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;fontColor=#000000;strokeWidth=4;" edge="1" parent="1" source="WadXmMXPq1VeHtxro_Xy-197" target="WadXmMXPq1VeHtxro_Xy-199">
+        <mxCell id="WadXmMXPq1VeHtxro_Xy-200" style="edgeStyle=elbowEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;fontColor=#000000;strokeWidth=4;" parent="1" source="WadXmMXPq1VeHtxro_Xy-197" target="WadXmMXPq1VeHtxro_Xy-199" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="WadXmMXPq1VeHtxro_Xy-202" style="edgeStyle=elbowEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;fontColor=#000000;strokeWidth=4;" edge="1" parent="1" source="WadXmMXPq1VeHtxro_Xy-197" target="WadXmMXPq1VeHtxro_Xy-201">
+        <mxCell id="WadXmMXPq1VeHtxro_Xy-202" style="edgeStyle=elbowEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;fontColor=#000000;strokeWidth=4;" parent="1" source="WadXmMXPq1VeHtxro_Xy-197" target="WadXmMXPq1VeHtxro_Xy-201" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="WadXmMXPq1VeHtxro_Xy-197" value="被保险人高端投保类型&#xa;验证" style="rhombus;fillColor=#ffe6cc;strokeColor=#d79b00;rounded=1;shadow=1;fontStyle=1;fontSize=14;" vertex="1" parent="1">
+        <mxCell id="WadXmMXPq1VeHtxro_Xy-197" value="被保险人高端投保类型&#xa;验证" style="rhombus;fillColor=#ffe6cc;strokeColor=#d79b00;rounded=1;shadow=1;fontStyle=1;fontSize=14;" parent="1" vertex="1">
           <mxGeometry x="658" y="7650" width="180" height="100" as="geometry" />
         </mxCell>
-        <mxCell id="WadXmMXPq1VeHtxro_Xy-199" value="被保险人高端投保类型验证：&#xa;1、有高端方案高端投保类型不能为空" style="rounded=1;shadow=1;fontStyle=1;fontSize=14;strokeColor=#d79b00;fillColor=#ffe6cc;align=left;" vertex="1" parent="1">
+        <mxCell id="WadXmMXPq1VeHtxro_Xy-199" value="被保险人高端投保类型验证：&#xa;1、有高端方案高端投保类型不能为空" style="rounded=1;shadow=1;fontStyle=1;fontSize=14;strokeColor=#d79b00;fillColor=#ffe6cc;align=left;" parent="1" vertex="1">
           <mxGeometry x="316.5" y="7665" width="304" height="70" as="geometry" />
         </mxCell>
-        <mxCell id="WadXmMXPq1VeHtxro_Xy-204" style="edgeStyle=elbowEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;fontColor=#000000;strokeWidth=4;" edge="1" parent="1" source="WadXmMXPq1VeHtxro_Xy-201" target="WadXmMXPq1VeHtxro_Xy-203">
+        <mxCell id="WadXmMXPq1VeHtxro_Xy-204" style="edgeStyle=elbowEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;fontColor=#000000;strokeWidth=4;" parent="1" source="WadXmMXPq1VeHtxro_Xy-201" target="WadXmMXPq1VeHtxro_Xy-203" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="WadXmMXPq1VeHtxro_Xy-206" style="edgeStyle=elbowEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;fontColor=#000000;strokeWidth=4;" edge="1" parent="1" source="WadXmMXPq1VeHtxro_Xy-201" target="WadXmMXPq1VeHtxro_Xy-205">
+        <mxCell id="WadXmMXPq1VeHtxro_Xy-206" style="edgeStyle=elbowEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;fontColor=#000000;strokeWidth=4;" parent="1" source="WadXmMXPq1VeHtxro_Xy-201" target="WadXmMXPq1VeHtxro_Xy-205" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="WadXmMXPq1VeHtxro_Xy-201" value="被保险人员福投保类型&#xa;验证" style="rhombus;fillColor=#ffe6cc;strokeColor=#d79b00;rounded=1;shadow=1;fontStyle=1;fontSize=14;" vertex="1" parent="1">
+        <mxCell id="WadXmMXPq1VeHtxro_Xy-201" value="被保险人员福投保类型&#xa;验证" style="rhombus;fillColor=#ffe6cc;strokeColor=#d79b00;rounded=1;shadow=1;fontStyle=1;fontSize=14;" parent="1" vertex="1">
           <mxGeometry x="658" y="7780" width="180" height="100" as="geometry" />
         </mxCell>
-        <mxCell id="WadXmMXPq1VeHtxro_Xy-203" value="被保险人员福投保类型验证：&#xa;1、有员福方案员福投保类型不能为空" style="rounded=1;shadow=1;fontStyle=1;fontSize=14;strokeColor=#d79b00;fillColor=#ffe6cc;align=left;" vertex="1" parent="1">
+        <mxCell id="WadXmMXPq1VeHtxro_Xy-203" value="被保险人员福投保类型验证：&#xa;1、有员福方案员福投保类型不能为空" style="rounded=1;shadow=1;fontStyle=1;fontSize=14;strokeColor=#d79b00;fillColor=#ffe6cc;align=left;" parent="1" vertex="1">
           <mxGeometry x="877" y="7795" width="304" height="70" as="geometry" />
         </mxCell>
-        <mxCell id="WadXmMXPq1VeHtxro_Xy-208" style="edgeStyle=elbowEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;fontColor=#000000;strokeWidth=4;" edge="1" parent="1" source="WadXmMXPq1VeHtxro_Xy-205" target="WadXmMXPq1VeHtxro_Xy-207">
+        <mxCell id="WadXmMXPq1VeHtxro_Xy-208" style="edgeStyle=elbowEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;fontColor=#000000;strokeWidth=4;" parent="1" source="WadXmMXPq1VeHtxro_Xy-205" target="WadXmMXPq1VeHtxro_Xy-207" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="WadXmMXPq1VeHtxro_Xy-210" style="edgeStyle=elbowEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;fontColor=#000000;strokeWidth=4;" edge="1" parent="1" source="WadXmMXPq1VeHtxro_Xy-205" target="WadXmMXPq1VeHtxro_Xy-209">
+        <mxCell id="WadXmMXPq1VeHtxro_Xy-210" style="edgeStyle=elbowEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;fontColor=#000000;strokeWidth=4;" parent="1" source="WadXmMXPq1VeHtxro_Xy-205" target="WadXmMXPq1VeHtxro_Xy-209" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="WadXmMXPq1VeHtxro_Xy-205" value="被保险人百万医疗&#xa;投保类型验证" style="rhombus;fillColor=#ffe6cc;strokeColor=#d79b00;rounded=1;shadow=1;fontStyle=1;fontSize=14;" vertex="1" parent="1">
+        <mxCell id="WadXmMXPq1VeHtxro_Xy-205" value="被保险人百万医疗&#xa;投保类型验证" style="rhombus;fillColor=#ffe6cc;strokeColor=#d79b00;rounded=1;shadow=1;fontStyle=1;fontSize=14;" parent="1" vertex="1">
           <mxGeometry x="658.5" y="7910" width="180" height="100" as="geometry" />
         </mxCell>
-        <mxCell id="WadXmMXPq1VeHtxro_Xy-207" value="被保险人百万医疗投保类型验证：&#xa;1、有百万医疗方案百万医疗投保类型不能为空" style="rounded=1;shadow=1;fontStyle=1;fontSize=14;strokeColor=#d79b00;fillColor=#ffe6cc;align=left;" vertex="1" parent="1">
+        <mxCell id="WadXmMXPq1VeHtxro_Xy-207" value="被保险人百万医疗投保类型验证：&#xa;1、有百万医疗方案百万医疗投保类型不能为空" style="rounded=1;shadow=1;fontStyle=1;fontSize=14;strokeColor=#d79b00;fillColor=#ffe6cc;align=left;" parent="1" vertex="1">
           <mxGeometry x="316.5" y="7925" width="304" height="70" as="geometry" />
         </mxCell>
-        <mxCell id="WadXmMXPq1VeHtxro_Xy-212" style="edgeStyle=elbowEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;fontColor=#000000;strokeWidth=4;" edge="1" parent="1" source="WadXmMXPq1VeHtxro_Xy-209" target="WadXmMXPq1VeHtxro_Xy-211">
+        <mxCell id="WadXmMXPq1VeHtxro_Xy-212" style="edgeStyle=elbowEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;fontColor=#000000;strokeWidth=4;" parent="1" source="WadXmMXPq1VeHtxro_Xy-209" target="WadXmMXPq1VeHtxro_Xy-211" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="WadXmMXPq1VeHtxro_Xy-214" style="edgeStyle=elbowEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;fontColor=#000000;strokeWidth=4;" edge="1" parent="1" source="WadXmMXPq1VeHtxro_Xy-209" target="WadXmMXPq1VeHtxro_Xy-213">
+        <mxCell id="WadXmMXPq1VeHtxro_Xy-214" style="edgeStyle=elbowEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;fontColor=#000000;strokeWidth=4;" parent="1" source="WadXmMXPq1VeHtxro_Xy-209" target="WadXmMXPq1VeHtxro_Xy-213" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="WadXmMXPq1VeHtxro_Xy-209" value="被保险人等级验证" style="rhombus;fillColor=#ffe6cc;strokeColor=#d79b00;rounded=1;shadow=1;fontStyle=1;fontSize=14;" vertex="1" parent="1">
+        <mxCell id="WadXmMXPq1VeHtxro_Xy-209" value="被保险人等级验证" style="rhombus;fillColor=#ffe6cc;strokeColor=#d79b00;rounded=1;shadow=1;fontStyle=1;fontSize=14;" parent="1" vertex="1">
           <mxGeometry x="658" y="8040" width="180" height="100" as="geometry" />
         </mxCell>
-        <mxCell id="WadXmMXPq1VeHtxro_Xy-211" value="被保险人等级验证：&#xa;1、等级不能为空&#xa;2、等级不存在" style="rounded=1;shadow=1;fontStyle=1;fontSize=14;strokeColor=#d79b00;fillColor=#ffe6cc;align=left;" vertex="1" parent="1">
+        <mxCell id="WadXmMXPq1VeHtxro_Xy-211" value="被保险人等级验证：&#xa;1、等级不能为空&#xa;2、等级不存在" style="rounded=1;shadow=1;fontStyle=1;fontSize=14;strokeColor=#d79b00;fillColor=#ffe6cc;align=left;" parent="1" vertex="1">
           <mxGeometry x="877" y="8055" width="304" height="70" as="geometry" />
         </mxCell>
-        <mxCell id="WadXmMXPq1VeHtxro_Xy-216" style="edgeStyle=elbowEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;fontColor=#000000;strokeWidth=4;" edge="1" parent="1" source="WadXmMXPq1VeHtxro_Xy-213" target="WadXmMXPq1VeHtxro_Xy-215">
+        <mxCell id="WadXmMXPq1VeHtxro_Xy-216" style="edgeStyle=elbowEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;fontColor=#000000;strokeWidth=4;" parent="1" source="WadXmMXPq1VeHtxro_Xy-213" target="WadXmMXPq1VeHtxro_Xy-215" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="WadXmMXPq1VeHtxro_Xy-218" style="edgeStyle=elbowEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;fontColor=#000000;strokeWidth=4;" edge="1" parent="1" source="WadXmMXPq1VeHtxro_Xy-213" target="WadXmMXPq1VeHtxro_Xy-217">
+        <mxCell id="WadXmMXPq1VeHtxro_Xy-218" style="edgeStyle=elbowEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;fontColor=#000000;strokeWidth=4;" parent="1" source="WadXmMXPq1VeHtxro_Xy-213" target="WadXmMXPq1VeHtxro_Xy-217" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="WadXmMXPq1VeHtxro_Xy-213" value="被保险人等级验证" style="rhombus;fillColor=#ffe6cc;strokeColor=#d79b00;rounded=1;shadow=1;fontStyle=1;fontSize=14;" vertex="1" parent="1">
+        <mxCell id="WadXmMXPq1VeHtxro_Xy-213" value="被保险人等级验证" style="rhombus;fillColor=#ffe6cc;strokeColor=#d79b00;rounded=1;shadow=1;fontStyle=1;fontSize=14;" parent="1" vertex="1">
           <mxGeometry x="658" y="8170" width="180" height="100" as="geometry" />
         </mxCell>
-        <mxCell id="WadXmMXPq1VeHtxro_Xy-215" value="被保险人等级验证：&#xa;1、等级不能为空&#xa;2、等级不存在" style="rounded=1;shadow=1;fontStyle=1;fontSize=14;strokeColor=#d79b00;fillColor=#ffe6cc;align=left;" vertex="1" parent="1">
+        <mxCell id="WadXmMXPq1VeHtxro_Xy-215" value="被保险人等级验证：&#xa;1、等级不能为空&#xa;2、等级不存在" style="rounded=1;shadow=1;fontStyle=1;fontSize=14;strokeColor=#d79b00;fillColor=#ffe6cc;align=left;" parent="1" vertex="1">
           <mxGeometry x="316.5" y="8185" width="304" height="70" as="geometry" />
         </mxCell>
-        <mxCell id="WadXmMXPq1VeHtxro_Xy-220" style="edgeStyle=elbowEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;fontColor=#000000;strokeWidth=4;" edge="1" parent="1" source="WadXmMXPq1VeHtxro_Xy-217" target="WadXmMXPq1VeHtxro_Xy-219">
+        <mxCell id="WadXmMXPq1VeHtxro_Xy-220" style="edgeStyle=elbowEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;fontColor=#000000;strokeWidth=4;" parent="1" source="WadXmMXPq1VeHtxro_Xy-217" target="WadXmMXPq1VeHtxro_Xy-219" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="WadXmMXPq1VeHtxro_Xy-236" style="edgeStyle=elbowEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;elbow=vertical;html=1;fontColor=#000000;strokeWidth=4;" edge="1" parent="1" source="WadXmMXPq1VeHtxro_Xy-217" target="WadXmMXPq1VeHtxro_Xy-235">
+        <mxCell id="WadXmMXPq1VeHtxro_Xy-236" style="edgeStyle=elbowEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;elbow=vertical;html=1;fontColor=#000000;strokeWidth=4;" parent="1" source="WadXmMXPq1VeHtxro_Xy-217" target="WadXmMXPq1VeHtxro_Xy-235" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="WadXmMXPq1VeHtxro_Xy-217" value="数据处理状态" style="rhombus;fillColor=#ffe6cc;strokeColor=#d79b00;rounded=1;shadow=1;fontStyle=1;fontSize=14;" vertex="1" parent="1">
+        <mxCell id="WadXmMXPq1VeHtxro_Xy-217" value="数据处理状态" style="rhombus;fillColor=#ffe6cc;strokeColor=#d79b00;rounded=1;shadow=1;fontStyle=1;fontSize=14;" parent="1" vertex="1">
           <mxGeometry x="658" y="8310" width="180" height="100" as="geometry" />
         </mxCell>
-        <mxCell id="WadXmMXPq1VeHtxro_Xy-219" value="数据处理状态&#xa;1、把合法性处理状态修改成 处理完成&#xa;2、如果字段合法性校验有误，数据处理结果改成&#xa;    失败&#xa;3、字段合法性校验通过无错误，数据处理结果&#xa;    改为 待处理" style="rounded=1;shadow=1;fontStyle=1;fontSize=14;strokeColor=#d79b00;fillColor=#ffe6cc;align=left;" vertex="1" parent="1">
+        <mxCell id="WadXmMXPq1VeHtxro_Xy-219" value="数据处理状态&#xa;1、把合法性处理状态修改成 处理完成&#xa;2、如果字段合法性校验有误，数据处理结果改成&#xa;    失败&#xa;3、字段合法性校验通过无错误，数据处理结果&#xa;    改为 待处理" style="rounded=1;shadow=1;fontStyle=1;fontSize=14;strokeColor=#d79b00;fillColor=#ffe6cc;align=left;" parent="1" vertex="1">
           <mxGeometry x="877" y="8300" width="304" height="120" as="geometry" />
         </mxCell>
-        <mxCell id="WadXmMXPq1VeHtxro_Xy-225" value="返回校验成功的条数" style="rhombus;fillColor=#ffe6cc;strokeColor=#d79b00;rounded=1;shadow=1;fontStyle=1;fontSize=14;" vertex="1" parent="1">
+        <mxCell id="WadXmMXPq1VeHtxro_Xy-225" value="返回校验成功的条数" style="rhombus;fillColor=#ffe6cc;strokeColor=#d79b00;rounded=1;shadow=1;fontStyle=1;fontSize=14;" parent="1" vertex="1">
           <mxGeometry x="658" y="8584" width="180" height="100" as="geometry" />
         </mxCell>
-        <mxCell id="WadXmMXPq1VeHtxro_Xy-233" style="edgeStyle=elbowEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;elbow=vertical;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;fontColor=#000000;strokeWidth=4;" edge="1" parent="1" source="WadXmMXPq1VeHtxro_Xy-231" target="2">
+        <mxCell id="WadXmMXPq1VeHtxro_Xy-233" style="edgeStyle=elbowEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;elbow=vertical;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;fontColor=#000000;strokeWidth=4;" parent="1" source="WadXmMXPq1VeHtxro_Xy-231" target="2" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="WadXmMXPq1VeHtxro_Xy-231" value="开始" style="rounded=1;fillColor=#1ba1e2;strokeColor=#006EAF;shadow=1;fontStyle=1;fontColor=#ffffff;fontSize=14;" vertex="1" parent="1">
+        <mxCell id="WadXmMXPq1VeHtxro_Xy-231" value="开始" style="rounded=1;fillColor=#1ba1e2;strokeColor=#006EAF;shadow=1;fontStyle=1;fontColor=#ffffff;fontSize=14;" parent="1" vertex="1">
           <mxGeometry x="651" y="10" width="200" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="WadXmMXPq1VeHtxro_Xy-237" style="edgeStyle=elbowEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;elbow=vertical;html=1;fontColor=#000000;strokeWidth=4;" edge="1" parent="1" source="WadXmMXPq1VeHtxro_Xy-235" target="WadXmMXPq1VeHtxro_Xy-225">
+        <mxCell id="WadXmMXPq1VeHtxro_Xy-237" style="edgeStyle=elbowEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;elbow=vertical;html=1;fontColor=#000000;strokeWidth=4;" parent="1" source="WadXmMXPq1VeHtxro_Xy-235" target="WadXmMXPq1VeHtxro_Xy-225" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="WadXmMXPq1VeHtxro_Xy-235" value="遍历每一条数据结束" style="rounded=1;shadow=1;fontStyle=1;fontSize=14;" vertex="1" parent="1">
+        <mxCell id="WadXmMXPq1VeHtxro_Xy-235" value="遍历每一条数据结束" style="rounded=1;shadow=1;fontStyle=1;fontSize=14;" parent="1" vertex="1">
           <mxGeometry x="648" y="8470" width="200" height="60" as="geometry" />
         </mxCell>
       </root>
